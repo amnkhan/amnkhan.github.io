@@ -1,0 +1,5 @@
+So, the index.html, css and js are the website files.
+
+referral.css and referral.png are your files to edit, referral.png is a sprite image and the code for those images are in the referral.css.
+
+Please add all code to referral.css file for referral page. The page will be named referral-program.html

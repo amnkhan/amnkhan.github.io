@@ -1,0 +1,9 @@
+
+// Project Requirements:
+===================================================
+
+1/	Example Site Link => combinefitness.ca
+2/	Complete The Homepage
+3/	Use HTML5, CSS3 And Bootstrap3
+4/	Responsive Mobile Device Support
+5/	Customaize The Look To Make It looks Mordern.

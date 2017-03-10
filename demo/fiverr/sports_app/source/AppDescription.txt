@@ -1,0 +1,15 @@
+The app is currently called: “Social Football - Live Scores”.
+- Localized in 6 languages: EN, FR, DE, IT, ES, NL.
+Here is a list with all the features of the app:
+- View the livescores of all major worldwide leagues.
+- View standings of all major worldwide leagues.
+- View match details of finished/live matches.
+- Add media for a match. (For example a link to a website article or video of a goal or a livestream of the match etc)
+- Chat in the per match chat room.
+- Users can acquire points by adding media and adding chat messages. Other users can also rate the media and chat messages posted, which will also result in extra points for the user who posted the media/chat message.
+- User rankings overview based on the score of the users, overall and per month.
+- Recent media view, sorted based on the score of the media.
+- Feedback view to inform me about issues and requesting new features.
+- Push notifications for all match events. (start/end/goals/added media/added chat message)
+- 2 in app purchases: First to disable the in app ads (2,99), Second to upgrade to ‘vip’ to make your chat messages and added media more visible.
+- Localized in 6 languages: EN, FR, DE, IT, ES, NL.

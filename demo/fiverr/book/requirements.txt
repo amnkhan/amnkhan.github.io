@@ -1,0 +1,35 @@
+Just to reiterate, this is the shite:
+
+I need a personal website that I can upload onto my server. I started to make one, but I am really only familiar with simple HTML.
+
+Here are three sample sites:
+
+http://davidbaldacci.com/
+
+http://paul-levine.com/
+
+http://steveberry.org/
+
+IA landing page.
+A gallery page
+Two text pages
+A carousel as in the example (Steve Berry's page), initially with 30 books. Then I need a template book page that I can drop in the cover image and the text
+One page suitable for a GEDCOM file (I can provide the file).
+
+All I want is the shell. I will use Silverlight (or I am open to other suggestions) to input text, photos, etc. So I will be doing the gruntwork, but I need someone to give me the template.
+
+I sort of liked http://all-free-download.com/free-website-templates/faulkner_template_1376.html as a color scheme.
+
+Once again, I just need the overall design. I can insert images and text as needed. Right now, I use Microsoft Silverlight.
+
+My name is Jonathan P. Brazee, if you want to incorporate that into the design.
+
+My Amazon book page is http://www.amazon.com/Jonathan-P.-Brazee/e/B007E4W0GC These are the books I need in the
+
+carousel, and you can look at this to get an idea of me. The webpage will be my personal webpage at jonathanbrazee.com, so the page is basically about me with emphasis on my books.
+
+To be clear on the carousel, each book image in the carousel will lead to another page where there will be a book cover and I will type in the description of the book.
+
+Let me know if you have any questions.
+
+Before working on all the subsequent pages, please send me your ideas for the overall look in the landing page.

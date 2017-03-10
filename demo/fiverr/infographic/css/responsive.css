@@ -1,0 +1,87 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.satisfy-font {
+ 	text-align: center;
+ }
+.cooper-black-alternative {
+ 	text-align: center;
+ }
+.infographic-image {
+	padding-top: 50px;
+}
+
+
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.satisfy-font {
+  font-size: 20px;
+  text-align: center;
+}
+.cooper-black-alternative {
+  font-size: 29px;
+  text-align: center;
+}
+.section-padding {
+	padding: 40px 0;
+}
+.infographic-image img {
+  width: 110px;
+}
+.dotted-border {
+  padding-bottom: 30px;
+}
+.pt-100 {
+  padding-top: 0 !important;
+}
+.infographic-text p {
+  font-size: 18px;
+  margin: 20px 0;
+  text-align: center;
+}
+.section-title {
+  font-size: 22px;
+}
+.sub-image {
+  margin-top: 30px;
+}
+.sub-image-item {
+  margin-bottom: 40px;
+}
+.sub-title {
+  font-size: 18px;
+}
+.sub-image-item img {
+  height: 110px;
+  width: 110px;
+}
+.mb-50 {
+  margin-bottom: 0 !important;
+}
+.pattern7 .infographic-text h3 {
+  text-align: center;
+  margin-top: 20px;
+}
+.middle-list {
+  padding: 0;
+}
+.middle-list-item ul li i {
+  font-size: 22px;
+  padding-right: 10px;
+  padding-top: 8px;
+}
+.middle-list-item ul li {
+  font-size: 16px;
+  padding: 5px 0;
+}
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

@@ -1,0 +1,62 @@
+// Color Preset
+@import "presets";
+
+
+a{
+	color: $preset;
+	&:hover{
+		color: $preset-dark;
+	}
+}
+
+
+// Button Styles
+.btn-common {
+    background: $preset;
+    &:hover , &:focus {
+    	background: $preset-dark !important;
+    }
+}
+
+// Logo
+.logo  {
+    border: 3px solid $preset;
+	h2 {
+	    span {
+	    	color: $preset;
+	    }
+	}
+	&:hover {
+		border: 3px solid $preset-dark; 
+
+	}
+	&:hover h2 span {
+		color: $preset-dark;
+	}
+}
+
+// Menu
+.navbar-custom {
+	.navbar-nav {
+		li {
+			&:hover a , &.active a {
+				color: $preset;
+				border-bottom: 3px solid $preset;
+			}
+		}
+	}
+}
+
+.navbar-toggle {
+    background: $preset;
+    margin-top: 30px;
+    .icon-bar {
+    	background: #fff;
+    }
+}
+
+// Hero Area
+.hero-area {
+	@include gredients;
+	color: #fff;
+}

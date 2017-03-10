@@ -1,0 +1,33 @@
+a {
+  color: #3498db; }
+  a:hover {
+    color: #1d6fa5; }
+
+.btn-common {
+  background: #3498db; }
+  .btn-common:hover, .btn-common:focus {
+    background: #1d6fa5 !important; }
+
+.logo {
+  border: 3px solid #3498db; }
+  .logo h2 span {
+    color: #3498db; }
+  .logo:hover {
+    border: 3px solid #1d6fa5; }
+  .logo:hover h2 span {
+    color: #1d6fa5; }
+
+.navbar-custom .navbar-nav li:hover a, .navbar-custom .navbar-nav li.active a {
+  color: #3498db;
+  border-bottom: 3px solid #3498db; }
+
+.navbar-toggle {
+  background: #3498db;
+  margin-top: 30px; }
+  .navbar-toggle .icon-bar {
+    background: #fff; }
+
+.hero-area {
+  background-image: -webkit-linear-gradient(left, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  color: #fff; }

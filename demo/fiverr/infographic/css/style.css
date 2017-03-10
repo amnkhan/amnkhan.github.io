@@ -1,0 +1,158 @@
+/* Base Styles: */
+
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+.fix { overflow: hidden }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,
+body { height: 100% }
+body {
+    font-family: 'Enriqueta', serif;
+}
+.satisfy-font {
+    font-family: 'Satisfy', cursive;
+    font-size: 46px;
+}
+.cooper-black-alternative {
+    font-family: 'Patua One', cursive;
+    font-size: 63px;
+}
+.section-padding {
+    padding: 80px 0;
+}
+
+a {
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+a:hover { text-decoration: none }
+.navbar-custom .nav li.active,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .navbar-nav > li.active > a {
+    background: none;
+    outline: 0;
+    color: #CFC91D;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background: #222 none repeat scroll 0 0;
+}
+span {
+    color: #9b0000;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+span.span-blue {
+    color: #175c9b;
+    text-transform: uppercase;
+    font-weight: 700;   
+}
+.section-title {
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.sub-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 28px;
+}
+/* Elements Style Start Here */
+.pattern1 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern1.png") repeat-x scroll 0 0;
+}
+.pattern2 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern2.png") repeat-x scroll 0 0;
+}
+.pattern3 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern3.png") repeat-x scroll 0 0;
+}
+.pattern4 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern4.png") repeat-x scroll 0 0;
+}
+.pattern5 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern5.png") repeat-x scroll 0 0;
+}
+.pattern6 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern6.png") repeat-x scroll 0 0;
+}
+.pattern7 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern7.png") repeat-x scroll 0 0;
+}
+.pattern8 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern8.png") repeat-x scroll 0 0;
+}
+.pattern9 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern9.png") repeat-x scroll 0 0;
+}
+.pattern10 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern10.png") repeat-x scroll 0 0;
+}
+.pattern11 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern11.png") repeat-x scroll 0 0;
+}
+.pattern12 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern12.png") repeat-x scroll 0 0;
+}
+.pattern13 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern13.png") repeat-x scroll 0 0;
+}
+.pattern14 {
+  background: rgba(0, 0, 0, 0) url("../img/pattern/pattern14.png") repeat-x scroll 0 0;
+}
+.pt-100 {
+    padding-top: 100px;
+}
+.pt-50 {
+    padding-top: 50px;
+}
+.mb-50 {
+    margin-bottom: 50px;
+}
+.dotted-border {
+    border-bottom: 5px dotted #000;
+    padding-bottom: 100px;
+}
+.infographic-text p {
+  font-size: 26px;
+}
+.sub-image {
+  margin-top: 80px;
+}
+
+.middle-image {
+    margin-top: 40px;
+}
+.middle-image img {
+    width: 100%;
+}
+.middle-list {
+  padding: 25px 0;
+}
+.middle-list-item ul {
+    list-style: outside none none;
+    margin-left: 0 !important;
+    padding-left: 0;
+}
+.middle-list-item ul li i {
+    color: #13bfd1;
+    font-size: 44px;
+    padding-right: 15px;
+    padding-top: 6px;
+}
+.middle-list-item ul li {
+    font-size: 30px;
+    padding: 10px 0;
+}

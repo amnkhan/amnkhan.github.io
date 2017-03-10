@@ -1,0 +1,78 @@
+
+//  Global Styles
+@import 'partials/_global.scss';
+
+// Logo
+.logo  {
+    margin: 20px 0;
+    padding: 10px 15px;
+    height: auto;
+    transition: $transition;
+	h2 {
+		font-size: 18px;
+	    font-weight: 500;
+	    text-transform: uppercase;
+	    color: #333;
+	    margin: 0;
+	    font-family: $body-font;
+	    letter-spacing: 1px;
+	}
+	&:hover {
+		transition: $transition;
+	}
+	&:hover h2 span {
+		transition: $transition;
+	}
+}
+
+// Menu
+.navbar-custom {
+	margin-bottom: 0;
+	@include menu-box-shadow;
+	.navbar-nav {
+		margin-top: 20px;
+		li {
+		    margin-right: 30px;
+		    &:last-child {
+		    	margin-right: 0;
+		    }
+			a {
+			    background: none;
+			    padding: 10px 1px;
+			    text-transform: uppercase;
+			    font-weight: 500;
+			    color: #333;
+			    border-bottom: 3px solid transparent;
+			}
+		}
+	}
+}
+
+// Hero Area
+.hero-area {
+	.hero-text {
+		h1 {
+			font-size: 64px;
+		    margin-top: 0;
+		    text-transform: lowercase;
+		}
+		p {
+		    font-weight: 400;
+		    font-size: 16px;
+		    letter-spacing: 0.1rem;
+		    line-height: 22px;
+		    margin-top: 20px;
+		}
+		.btn {
+			margin-top: 40px;
+			margin-right: 10px;
+		}
+	}
+	.hero-image {
+		.hero-carousel {
+			img {
+				height: 360px;
+			}
+		}
+	}
+}

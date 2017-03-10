@@ -1,0 +1,449 @@
+.yahoo, .tumblr, .linkedin, .wordpress, .gmail, .twitter, .google, .facebook, .instagram, .pin, .youtube, .money, .refer, .man, .arm, .s-1, .s-2, .s-3{
+	background: url(referral.png) no-repeat;
+}
+
+.yahoo {
+  background-image: url("referral.png");
+  background-position: -11px -3px;
+  height: 50px;
+  width: 120px;
+}
+
+.tumblr{
+	background-position: -147.0000114440918px -3px ;
+	width: 120px;
+	height: 50px;
+}
+
+.linkedin {
+  background-position: -282px -1px;
+  height: 50px;
+  width: 140px;
+  background-image: url(referral.png);
+}
+
+.wordpress{
+	background-position: -14.000003814697266px -56px ;
+	width: 50px;
+	height: 50px;
+}
+
+.gmail {
+  background-image: url("referral.png");
+  background-position: -75px -56px;
+  height: 50px;
+  width: 70px;
+}
+
+.twitter{
+	background-position: -145.99999618530273px -53px ;
+	width: 70px;
+	height: 50px;
+}
+
+.google{
+	background-position: -142.0000114440918px -110px ;
+	width: 70px;
+	height: 50px;
+}
+
+.facebook{
+	background-position: -493.0000114440918px -6px ;
+	width: 70px;
+	height: 50px;
+}
+
+.instagram{
+	background-position: -429.0000114440918px -4px ;
+	width: 70px;
+	height: 50px;
+}
+
+.pin{
+	background-position: -4.000003814697266px -112px ;
+	width: 70px;
+	height: 50px;
+}
+
+.youtube{
+	background-position: -68.99999618530273px -112px ;
+	width: 70px;
+	height: 50px;
+}
+
+.money {
+  background-image: url("referral.png");
+  background-position: -5.9875px -168px;
+  height: 180px;
+  width: 250px;
+}
+
+.refer {
+  background-position: -312px -59px;
+  height: 180px;
+  width: 300px;
+  background-image: url(referral.png);
+}
+
+.man {
+  background: rgba(0, 0, 0, 0) url("referral.png") no-repeat scroll -315px -259px;
+  height: 180px;
+  width: 200px;
+}
+
+.arm {
+  background-image: url("referral.png");
+  background-position: -531px -264px;
+  height: 180px;
+  position: absolute;
+  right: 116px;
+  top: 193px;
+  width: 30px;
+}
+
+.s-1{
+	background-position: -18.000003814697266px -393px ;
+	width: 70px;
+	height: 50px;
+}
+
+.s-2{
+	background-position: -116.99999618530273px -395px ;
+	width: 70px;
+	height: 50px;
+}
+
+.s-3{
+	background-position: -211.0000114440918px -395px ;
+	width: 70px;
+	height: 50px;
+}
+
+/* Referral Page Styels */
+.referral-program-area {
+	background-color: #E7EFF1;
+}
+.top-padding {
+	padding-top: 130px;
+}
+.section-padding {
+	padding: 100px 0;
+}
+.padding-right-none {
+	padding-right: 0 !important;
+}
+.padding-left-none {
+	padding-left: 0 !important;
+}
+.referral-span {
+	color: #FC5B82;
+}
+.referral-program-area h1 {
+    font-size: 60px !important;
+    font-weight: 700;
+    text-align: left;
+    text-transform: uppercase;
+}
+.referral-program-area h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+.referral-program-area h3 {
+  font-size: 22px;
+  line-height: 32px;
+  margin-top: 6px;
+}
+
+.referral-steps .media .media-left h4 {
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 24px !important;
+    font-weight: 700;
+    height: 50px;
+    padding: 11px;
+    text-align: center;
+    width: 50px;
+}
+.referral-steps .media .media-body .media-heading {
+  font-size: 15px !important;
+  line-height: 23px;
+  margin-top: 11px;
+  padding-left: 5px;
+}
+.speach-bubble {
+  position: absolute;
+  width: 99px;
+  height: 86px;
+  background: #ADCFD9;
+  padding: 4px;
+  border-radius: 10px;
+  left: -33px;
+}
+.speach-bubble p {
+  font-size: 9px;
+  text-align: center;
+  font-weight: 700;
+  color: #353A42;
+}
+span.money-sign {
+  font-size: 18px;
+  padding-left: 5px;
+  color: #2E323D;
+}
+.referral-link-section {
+	background: #0077FF;
+}
+.section-middle-padding {
+	padding-top: 130px;
+	padding-bottom: 50px;
+}
+.referral-link-genarator-content p , .referral-link-genarator-content b {
+	color: #fff;
+}
+.referral-link-genarator-content p {
+	font-size: 18px;
+}
+.referral-link-genarator-content b {
+  font-size: 14px;
+}
+.referral-link-genarator-content .form-holder {
+  padding-top: 15px !important;
+}
+.referral-link-genarator-content .signup-email-field {
+    border-radius: 6px;
+    margin-right: 5px;
+}
+.referral-link-genarator-content .contained-form input[type="submit"] {
+    border-radius: 6px;
+    top: 1px;
+}
+.referral-link-genarator-content .contained-form {
+  margin-bottom: 15px;
+}
+.single-social-image {
+  padding-left: 80px;
+}
+.single-social-image ul li {
+  float: left;
+  padding: 0 10px;
+}
+.social-title > h2 {
+  font-size: 18px;
+  margin-top: 10px;
+  line-height: 24px;
+}
+.single-referral-widget {
+	padding: 50px 0;
+}
+.single-referral-widget h4 {
+  color: #67c7dd;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+p.referral-links {
+  font-size: 14px;
+  font-weight: 700;
+}
+.social-icons {
+  margin-bottom: 10px;
+}
+.social-icons li {
+  float: left;
+}
+
+
+
+/* Responsive Styles Start Here:
+================================ */
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.referral-program-area h2 {
+  font-size: 18px;
+}
+.referral-program-area h1 {
+  font-size: 44px !important;
+}    
+.referral-program-area h3 {
+  font-size: 17px;
+  line-height: 23px;
+}
+.referral-steps .media .media-body .media-heading {
+  font-size: 11px !important;
+  line-height: 18px;
+}
+span.money-sign {
+  font-size: 14px;
+}
+.money {
+  width: 155px;
+}
+.arm {
+  right: 83px;
+}
+.social-title > h2 {
+  font-size: 15px;
+  line-height: 21px;
+}
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+.referral-program-area h2 , .referral-program-area h1 , .referral-program-area h3 {
+  text-align: center;
+}
+.referral-steps {
+  padding-top: 50px;
+}
+.speach-bubble {
+  left: 178px;
+}
+.refer {
+ 	height: 165px;
+}
+.arm {
+  right: 78px;
+  top: 244px;
+}
+.referral-link-genarator-content b {
+  font-size: 12px;
+}
+.single-referral-widget {
+  padding: 18px 0;
+}
+.social-title > h2 {
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+.referral-footer-bottom {
+  margin-top: 50px;
+}
+.referral-footer-bottom .social-title > h2 {
+  font-size: 12px;
+  line-height: 17px;
+  margin-top: 12px;
+}
+.referral-footer-bottom .social-title > h2 {
+  text-align: center;
+}
+.linkedin {
+  margin-left: 40%;
+}
+.social-icons {
+  margin-left: 18%;
+}
+   
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.referral-program-area h2 {
+  font-size: 16px;
+  text-align: center;
+}
+.referral-program-area h1 {
+  font-size: 32px !important;
+  text-align: center;
+}
+.referral-program-area h3 {
+  font-size: 13px;
+  line-height: 19px;
+  margin-top: 10px;
+  text-align: center;
+}
+.referral-steps .media .media-left h4 {
+  font-size: 18px !important;
+  height: 40px;
+  padding: 10px;
+  width: 40px;
+}
+.speach-bubble {
+  height: 75px;
+  left: 167px;
+  width: 99px;
+}
+.referral-steps .media .media-body .media-heading {
+  font-size: 14px !important;
+  line-height: 17px;
+  margin-top: 15px;
+  padding-left: 5px;
+}
+.referral-steps {
+  padding: 20px 0;
+}
+.section-middle-padding {
+  padding-top: 50px;
+}
+.referral-link-genarator-content p {
+  font-size: 16px;
+}
+.referral-link-genarator-content b {
+  font-size: 11px;
+}
+.referral-link-genarator-content input[type="text"] {
+  font-size: 14px;
+  height: 38px;
+  line-height: 42px;
+  width: 200px;
+}
+.referral-link-genarator-content input[type="submit"] {
+  height: 35px;
+  line-height: 30px;
+  padding: 0 20px;
+  width: 200px;
+  margin-top: 10px;
+}
+.section-padding {
+  padding: 50px 0;
+}
+.referral-section-title h3 {
+  font-size: 17px;
+  line-height: 23px;
+}
+.referral-section-title h2 {
+  font-size: 12px;
+  line-height: 18px;
+}
+.single-referral-widget {
+  padding: 20px 0;
+}
+.social-title > h2 {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 10px;
+}
+.refer {
+  width: 276px;
+}
+p.referral-links {
+  font-size: 11px;
+}
+.padding-left-none {
+  padding-left: 15px !important;
+}
+.referral-footer-bottom .social-title h2 {
+  font-size: 13px;
+}
+.referral-footer-bottom {
+  padding: 20px 0;
+}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+.referral-steps {
+  padding-left: 30% !important;
+}
+.speach-bubble {
+  left: 66%;
+}
+.referral-footer-bottom .social-title > h2 {
+  text-align: center;
+}
+.linkedin {
+  margin-left: 40%;
+}
+.social-icons {
+  margin-left: 18%;
+}
+
+}

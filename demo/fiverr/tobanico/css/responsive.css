@@ -1,0 +1,97 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.navbar-custom ul.nav li a {
+  font-size: 12px;
+}
+.navbar-custom ul.nav li {
+  padding: 6px 8px;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand.logo img {
+  margin-bottom: 10px;
+}
+.navbar-custom ul.nav li a .fa {
+  font-size: 22px;
+  margin-bottom: 5px;
+}.
+.navbar-custom .navbar-nav>li {
+  float: left !important;
+}
+.navbar-custom ul.nav li {
+  padding: none !important;
+}
+.navbar-custom ul.nav li a {
+  border-bottom: 1px solid #ddd;
+  padding: 2px 5px;
+}
+.navbar-custom ul.nav li a:last-child {
+  border-bottom: none;
+}
+.section-padding {
+  padding: 40px 0;
+}
+.carousel-control {
+	display: none;
+}
+ .single-service .media {
+  padding: 30px 10px;
+}
+.sub-title {
+  font-size: 14px;
+}
+.single-service .media .media-left {
+  display: block;
+  float: none;
+  text-align: center;
+  padding: 0;
+}
+.single-service .media .media-body {
+  text-align: center;
+}
+.single-service .media .fa::before {
+  font-size: 25px;
+  height: 70px;
+  line-height: 70px;
+  width: 70px;
+}
+.single-service .media-body h3 {
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.single-service .media-body h3::after {
+  left: 0;
+  margin: 0 auto;
+  right: 0;
+}
+.section-title {
+  font: 700 18px "Open Sans",sans-serif;
+}
+.mt-80 {
+	margin-top: 20px !important;
+}
+.about-us-info {
+  padding: 10px 0;
+}
+.sub-heading {
+  font: 700 10px "Open Sans",sans-serif;
+}
+
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

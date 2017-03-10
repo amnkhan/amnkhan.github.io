@@ -1,0 +1,23 @@
+The app is called: “Social Football - Live Scores”.
+Localized in 6 languages: EN, FR, DE, IT, ES, NL.
+
+App description text:
+Do you want to know the latest match results? Do you want to chat with your fellow football fans and share the best match moments? Introducing Social Football - Live Scores, an app that combines live scores with social media. Show the scores of all upcoming, finished and live matches worldwide. Share highlights, goals, and other match media. Show the latest standings from all the major leagues worldwide. Chat about the latest football news with fellow football fans. Enjoy all our features for FREE! 
+
+TOP SOCIAL FOOTBALL - LIVE SCORES FEATURES:
+•	User friendly interface and cool app design for iPhone and iPad.
+•	View all live scores and results from all major leagues and competitions worldwide.
+•	View the match details of finished, upcoming and live matches.
+•	View the standing of all major leagues worldwide.
+•	Chat with your fellow fans about football news and the matches. 
+•	Add highlights, goals or other content to matches. 
+•	Get points by adding media and chatting. 
+•	Ability to rate media and messages. You will get extra point if your media or chat messages are rated by other users!
+•	View your user ranking based on your score in an overall and monthly ranking.
+•	Overview of the most recent and best rated media. 
+•	Enabled push notifications for your favorite matches to receive all match updates very fast.
+•	Share the live scores using the iMessage app!
+•	Use the Safari extension to easily share web content!
+
+We try to make our Social Football - Live Scores app to be as user friendly and complete as possible. We continue to improve our app with updates.
+Please let us know if you run into issues with the app or do know good improvements. You can submit your feedback from within the app and we will try to process your feedback as soon as possible!

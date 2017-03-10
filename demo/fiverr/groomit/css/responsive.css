@@ -1,0 +1,75 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ .logo img {
+    width: 120px;
+}
+#tb-nav-collapse {
+    background: #333;
+}
+.hero-section {
+	height: 300px;
+}
+.hero-image img {
+	display: none;
+}
+.hero-content {
+	margin-top: 20px;
+}
+h1.hero-title {
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+}
+.hero-buttons {
+    margin-top: 20px;
+}
+.hero-buttons a {
+	margin-right: 2px;
+}
+.hero-buttons img {
+    width: 102px;
+}
+.section-padding {
+    padding: 40px 0;
+}
+h1.section-title {
+    font-size: 20px;
+    line-height: 31px;
+}
+.service-widgets-area {
+    margin-top: 20px;
+}
+.single-service .fa {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 26px;
+}
+.single-service h2 {
+    font-size: 14px;
+    margin-top: 19px;
+}
+.download-buttons img {
+    width: 102px;
+}
+.download-buttons a {
+	margin-right: 2px;
+}
+.download-buttons {
+    margin-top: 20px;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	
+}

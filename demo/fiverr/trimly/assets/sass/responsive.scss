@@ -5,13 +5,246 @@
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+ 	// Header
+    .header-area {
+    	// Logo
+    	.logo {
+    		margin: 20px 0;
+    		h2 {
+    			img {
+					width: 45px;
+    			}
+    			span {
+					font-size: 18px;
+    			}
+    		}
+    	}
+    	// Navbar
+    	.navbar-custom  {
+    		.navbar-nav {
+				margin-top: 20px;
+				li {
+					margin-right: 14px;
+					a {
+						padding: 10px 0;
+						font-size: 10px;
+					}
+				}
+    		}
+	  }
+    }
+    // Hero Section
+    .hero-section {
+    	.hero-text {
+    		h1 {
+    			font-size: 29px;
+			    line-height: 40px;
+    		}	
+    	}
+    }
+    // About Section
+    .about-text {
+    	margin-top: 0;
+    }
+    .section-title {
+    	font-size: 24px;
+    }
+    // Single Feature
+    .single-feature {
+    	margin-top: 0;
+    	&:nth-child(2), &:nth-child(4) {
+    		margin-top: 0;
+    	}
+    	i {
+		   font-size: 35px;
+		    margin-top: 8px;
+    	}
+    	h2 {
+    		margin-top: 8px;
+		    font-size: 14px;
+    	}
+    	p {
+    		font-size: 11px;
+    	}
+    }
+    // Download Section
+    .download-section {
+    	.download-text {
+			h2 {
+				font-size: 20px;
+				line-height: 30px;
+				margin-top: 0;
+			}
+    		
+    	}
+    	.right-mob-front {
+    		width: 270px;
+    	}
+    	.right-mob-back {
+    		width: 250px;
+    	}
+    }
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
- 
-    
+ 	// header
+ 	// Header
+    .header-area {
+    	// Logo
+    	.logo {
+    		margin: 20px 0;
+    		h2 {
+    			img {
+					width: 42px;
+    			}
+    			span {
+					font-size: 18px;
+    			}
+    		}
+    	}
+    	// Mobile Menu
+    	.navbar-toggle {
+    		margin-top: 28px;
+    	}
+
+    }
+    .navbar-default.affix-top .navbar-nav {
+		background: #333;
+		z-index: 99999999;
+		li {
+			margin-right: 0;
+			border-bottom: 1px solid darken(#333 , 10%);
+			&:last-child {
+				border-bottom: none;
+			}
+			&.active a {
+				border-bottom: 0px;
+			}
+			a {
+				text-align: center;
+				border-bottom: none;
+				font-size: 12px;
+				padding: 11px;
+				&:hover {
+					border-bottom: 0px !important;
+				}
+			}
+		}
+	}
+	.navbar-default.affix .navbar-nav {
+		background: #fff;
+		li {
+			margin-right: 0;
+			border-bottom: 1px solid darken(#fff , 10%);
+			&:last-child {
+				border-bottom: none;
+			}
+			&.active a {
+				border-bottom: 0px !important;
+			}
+			a {
+				text-align: center;
+				border-bottom: none;
+				font-size: 12px !important;
+				padding: 11px !important;
+				&:hover {
+					border-bottom: 0px !important;
+				}
+			}
+		}
+	}
+	.hero-section {
+		.display-table {
+			margin-top: 50px;
+		}
+		.hero-text {
+			text-align: center;
+			margin-top: 0px;
+			h1 {
+				font-size: 28px;
+				line-height: 35px;
+			}
+			p {
+				margin-top: 20px;
+			}
+			 a img {
+				margin-top: 10px;
+			}
+		}
+		.hero-image {
+			text-align: center;
+			margin-top: 30px;
+			img {
+				height: 300px;
+			}
+		}
+	}
+	.section-padding {
+		padding: 40px 0;
+	}
+	.about-text {
+		margin-top: 20px;
+		text-align: center;
+		h2 {
+			font-size: 19px;
+		}
+		p {
+			font-size: 14px;
+		}
+	}
+	.about-image {
+		margin-top: 50px;
+		img {
+			height: 270px;
+		}
+	}
+	.section-title {
+		font-size: 24px;
+	}
+	// Single Feature
+    .single-feature {
+    	text-align: center;
+    	margin-top: 0;
+    	&:nth-child(2), &:nth-child(4) {
+    		margin-top: 0;
+    	}
+    	i {
+		   font-size: 35px;
+		    margin-top: 8px;
+    	}
+    	h2 {
+    		margin-top: 8px;
+		    font-size: 14px;
+    	}
+    	p {
+    		font-size: 11px;
+    	}
+    }
+    .single-feature-image {
+    	margin: 20px 0;
+    	img {
+    		height: 300px;
+    	}
+    }
+    // Download Section
+    .download-section {
+    	padding: 20px 0px;
+	    .phones {
+	    	display: none;
+	    }
+	    .download-text {
+	    	text-align: center;
+	    	h2 {
+	    		  font-size: 20px;
+				  line-height: 36px;
+	    	}
+	    }
+    }
+    // Subscription
+    .subscription .form-group input {
+    	width: 300px
+    }
 }
 /* Wide Mobile Layout: 480px. */
 @media only screen and (min-width: 480px) and (max-width: 767px) { 

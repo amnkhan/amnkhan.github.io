@@ -4,6 +4,11 @@ $(window).load(function() {
   $('#loader').fadeOut();
 });
 
+// Responsive Menu
+$("ul.nav.navbar-nav li a").click(function() {
+    $(".navbar-collapse").removeClass("in");
+});
+
 // jQuery Smooth Scroll
 $('.page-scroll').on('click', function(event) {
     var $anchor = $(this),
@@ -33,10 +38,10 @@ $('#filer-carousel').owlCarousel({
     items: 6,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
-            items:3
+            items:4
         },
         1000:{
             items:8
@@ -83,18 +88,18 @@ $(document).on('submit', '#contactForm', function (e) {
 var offset = 200;
 var duration = 500;
 $(window).scroll(function() {
-if ($(this).scrollTop() > offset) {
-  $('.back-to-top').fadeIn(400);
-} else {
-  $('.back-to-top').fadeOut(400);
-}
-});
-$('.back-to-top').click(function(event) {
-event.preventDefault();
-$('html, body').animate({
-  scrollTop: 0
-}, 600);
-return false;
+    if ($(this).scrollTop() > offset) {
+      $('.back-to-top').fadeIn(400);
+    } else {
+      $('.back-to-top').fadeOut(400);
+    }
+    });
+    $('.back-to-top').click(function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: 0
+    }, 600);
+    return false;
 });
 
 

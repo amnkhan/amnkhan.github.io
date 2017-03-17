@@ -1,0 +1,82 @@
+// Color Preset
+@import "presets";
+
+a{
+	color: $preset;
+	&:hover{
+		color: $preset-dark;
+	}
+}
+
+
+// Button Styles
+.btn-common {
+    background: $preset;
+    &:hover , &:focus {
+    	background: $preset-dark !important;
+    }
+}
+a.back-to-top{
+	i {
+		background: $preset;
+	}
+  
+}
+
+.section-title {
+  &:after {
+    background: $preset;
+  }
+}
+
+.about-text {
+	ul {
+		li {
+			.fa {
+				color: $preset;
+			}
+		}
+	}
+}
+
+// Feature
+.single-feature-widget {
+    &:hover {
+    	border-bottom: 5px solid $preset;
+    }
+    
+    i {
+		font-size: 70px;
+	    color: $preset;
+    }
+}
+.single-feature {
+	i {
+		color: $preset;
+	}
+}
+.subscription button {
+	&:hover {
+		background: $preset-dark;
+		color: #fff;
+	}
+}
+
+// Download
+.download-text h2 {
+	span {
+		color: $preset;
+	}
+}
+
+// Contact
+
+.form-control:focus{
+    color: $preset;
+    border-color: $preset;
+}
+
+.footer-social .fa:hover {
+	background: $preset;
+	color: #fff;
+}

@@ -1,0 +1,485 @@
+
+//  Global Styles
+@import 'partials/_global.scss';
+
+
+.header-area {
+    // Logo
+	.logo {
+	    margin: 10px 0;
+	    padding: 0;
+	    height: auto;
+	    transition: all 0.3s ease 0s;
+	    h2 {
+	    	margin: 0;
+	    	span {
+				font-size: 22px;
+			    margin: 0;
+			    letter-spacing: 0.1rem;
+			    color: #333;
+			    color: #fff;
+	    	}
+	    }
+	    &:hover h2 span {
+	    	color: #f5f5f5;
+	    }
+	}
+	// Navbar
+	.navbar-custom {
+	    .navbar-nav {
+	    	margin-top: 10px;
+	    	li {
+	    		&.active a {
+    				background: none;
+    				color: #f5f5f5;
+    				border-bottom: 3px solid #f5f5f5;
+    			}
+    			&:last-child {
+    				margin-right: 0;
+    			}
+	    		padding: 0;
+			    margin-right: 30px;
+	    		a {
+    			    background: none;
+				    color: #fff;
+				    font-size: 15px;
+				    text-transform: capitalize;
+				    font-weight: 500;
+				    padding: 15px 0;
+				    border-bottom: 3px solid transparent;
+				    letter-spacing: 1px;
+	    			&:hover {
+	    				background: none;
+	    				color: #f5f5f5;
+	    				border-bottom: 3px solid #f5f5f5;
+	    			}
+	    		}
+
+	    	}
+	    }
+
+	}
+}
+.navbar-default {
+  padding: 0 15px;
+  background: transparent;
+  position: absolute;
+  border: 0px;
+  margin-bottom: 0;
+  z-index: 9999999999;
+  width: 100%;
+}
+.navbar-default.affix {
+  background: #fff;
+  z-index: 999999;
+  position: fixed;
+  box-shadow: 0px 3px 6px 3px rgba(0,0,0,0.06);
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+  .logo {
+  	h2 {
+  		img {
+  			width: 37px;
+  		}
+  		span {
+  			color: #333;
+  			font-size: 18px;
+  		}
+  	}
+  }
+  .navbar-custom {
+  	margin: 0;
+  	ul {
+  		margin-top: 8px;
+		li {
+			&.active a {
+				color: darken(#333 , 20%);
+				border-bottom: 3px solid darken(#333 , 20%);
+			}
+			a {
+				color: #333;
+				font-size: 15px;
+				padding: 13px 0;
+				&:hover {
+					color: darken(#333 , 20%);
+					border-bottom: 3px solid darken(#333 , 20%);
+				}
+			}
+		}
+  	}
+  }
+}
+
+
+.hero-section {
+    position: relative;
+    width: 100%;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: cover;
+    z-index: 1;
+    &:before {
+	    position: absolute;
+	    content: "";
+	    width: 100%;
+	    height: 100%;
+	    top: 0;
+	    left: 0;
+	    background-image: $gradient;
+	    opacity: 0.6;
+	    z-index: -1;
+    }
+    .display-table {
+    	display: table;
+    	height: 400px;
+    	.table-cell {
+    		display: table-cell;
+    		vertical-align: middle;
+    	}
+    }
+    .hero-text {
+    	margin-top: 60px;
+    	h1 {
+			color: #fff;
+		    font-size: 52px;
+		    margin-top: 0;
+		    line-height: 64px;
+		    font-weight: 400;
+		    span {
+		    	color: #f5f5f5;
+		    	font-weight: 500;
+		    }
+    	}
+    	p {
+		    color: #f5f5f5;
+		    font-size: 17px;
+		    margin-top: 40px;
+    	}
+    	a img {
+    		margin-top: 30px;
+    	}
+	}
+}
+
+// About Section
+.about-text {
+	h2 {
+	    font-size: 26px;
+	    color: #2b323f;
+	    margin-bottom: 25px;
+	}
+	p {
+		font-size: 15px;
+	}
+
+    .btn {
+	    margin-top: 20px;
+	}
+	
+	ul {
+		padding-left: 0;
+		margin-top: 10px;
+		li {
+			list-style: none;
+			color: #4c5462;
+		    font-size: 15px;
+		    line-height: 32px;
+		    text-transform: capitalize;
+			.fa {
+				padding-right: 7px;
+			}
+		}
+	}
+
+}
+
+
+// Filter Section
+.filter-section {
+	.owl-carousel .owl-item img {
+	    display: block;
+	    width: 100%;
+	}
+	.owl-carousel .item {
+		margin: 0;
+	}
+
+}
+
+// Feature
+
+.single-feature-widget {
+    padding: 30px 30px;
+    border-bottom: 5px solid transparent;
+    transition: all 0.3s ease 0s;
+    &:hover {
+    	box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    	cursor: pointer;
+    }
+    i {
+		font-size: 60px;
+    }
+    h2 {
+	    text-transform: uppercase;
+	    font-size: 15px; 
+    }
+}
+
+
+// Feature
+.single-feature {
+	margin-top: 40px;
+	&:nth-child(2), &:nth-child(4) {
+		margin-top: 100px;
+	}
+	i {
+	    font-size: 70px;
+	    margin-top: 25px;
+	}
+	h2 {
+	    margin-top: 8px;
+	    font-size: 20px;
+	    color: #2b323f;
+	}
+	p {
+	    font-size: 15px;
+	}
+
+}
+
+// Swiper Section
+
+
+.swiper-container.one {
+    padding-top: 40px;
+}
+.swiper-slide {
+    padding: 0 43px;
+}
+.swiper-container {
+    width: 100%;
+    padding-bottom: 60px;
+}
+.swiper-slide {
+    width: 390px;
+    height: auto;
+    padding: 0 15px;
+}
+.swiper-slide img {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+
+
+// Subscription
+
+.newsletter-section {
+	position: relative;
+	width: 100%;
+	background-image: url(../images/subscribe-bg.jpg);
+    background-size: cover;
+    background-position: fixed;
+    z-index: 1;
+    &:before {
+	    position: absolute;
+	    content: "";
+	    width: 100%;
+	    height: 100%;
+	    top: 0;
+	    left: 0;
+	    background-image: $gradient;
+	    opacity: 0.9;
+	    z-index: -1;
+    }
+	.section-title {
+		color: #fff;
+		&:after {
+			background: #fff !important;
+		}
+	}
+	.subtitle {
+		color: #fff;
+	}
+}
+.subscription {
+  position: relative;
+  margin: 0 auto;
+  height: 50px;
+  max-width: 600px;
+  padding: 0 15px;
+}
+.subscription .form-group {
+  float: left;
+  margin-bottom: 0;
+}
+
+.subscription .form-group input {
+  padding-left: 25px;
+  padding-right: 65px;
+  width: 460px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: white;
+}
+
+.subscription .form-group input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.subscription .form-group input::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.subscription .form-group input:-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.subscription .form-group input:-moz-placeholder {
+  color: rgba(255, 255, 255, 0.25);
+}
+
+.subscription label {
+  left: 0;
+  position: absolute;
+  top: 65px;
+  right: 0;
+  text-align: center;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 16px;
+}
+
+
+.subscription button {
+  display: inline-block;
+  position: absolute;
+  right: 15px;
+  height: 50px;
+  width: 150px;
+  background-color: white;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  color: #3059be;
+  outline: none;
+  transition: all 0.3s ease 0s;
+}
+
+// Download Section
+.relative {
+	position: relative;
+}
+.download-section{
+    padding:90px 0px;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+.download-text h2 {
+    font-size: 30px;
+    line-height: 44px;
+}
+
+.download-text p {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.download-text a img {
+    margin-top: 20px;
+}
+.right-mob-front{
+    position: absolute;
+    right: 12%;
+    margin: 0px auto;
+    top:-40px;
+    z-index: 2;
+}
+.right-mob-back {
+    position: absolute;
+    right:0px;
+    top:-20px;
+    z-index: 1;
+}
+
+
+// Contact Form
+	.form-control{
+    background: transparent;
+    border: 1px solid #ddd;
+    height: 50px;
+    margin-bottom: 20px;
+    padding:10px 20px;
+    width: 100%;
+    color:#161616;
+    outline: none;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 12px;
+    box-shadow: none;
+}
+textarea.form-control{
+    height: 100px;
+    max-height: 120px;
+    resize: none;
+    margin-bottom:40px;
+    overflow: hidden;
+}
+#contactForm .success,#contactForm .error {
+    display: none;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.form-control:focus{
+    font-weight: 900;
+    box-shadow: none;
+    outline: none;
+}
+
+
+// Footer Section
+.footer-section {
+	background: #2b323f;
+	padding: 50px 0;
+	.footer-social .fa {
+	    background: #fff;
+	    width: 35px;
+	    height: 35px;
+	    line-height: 35px;
+	    border-radius: 50%;
+	    color: #70798f;
+	    font-size: 16px;
+	    margin: 0 5px;
+	}
+	.copyright p {
+		color: #fff;
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+}
+
+
+
+
+
+
+
+
+
+

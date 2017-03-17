@@ -1,0 +1,43 @@
+a {
+  color: #8e44ad; }
+  a:hover {
+    color: #612e76; }
+
+.btn-common {
+  background: #8e44ad; }
+  .btn-common:hover, .btn-common:focus {
+    background: #612e76 !important; }
+
+a.back-to-top i {
+  background: #8e44ad; }
+
+.section-title:after {
+  background: #8e44ad; }
+
+.about-text ul li .fa {
+  color: #8e44ad; }
+
+.single-feature-widget:hover {
+  border-bottom: 5px solid #8e44ad; }
+
+.single-feature-widget i {
+  font-size: 70px;
+  color: #8e44ad; }
+
+.single-feature i {
+  color: #8e44ad; }
+
+.subscription button:hover {
+  background: #612e76;
+  color: #fff; }
+
+.download-text h2 span {
+  color: #8e44ad; }
+
+.form-control:focus {
+  color: #8e44ad;
+  border-color: #8e44ad; }
+
+.footer-social .fa:hover {
+  background: #8e44ad;
+  color: #fff; }

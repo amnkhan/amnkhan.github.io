@@ -1,5 +1,3 @@
-/* Medium Layout: 1280px. */
-/* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-area .logo {
     margin: 20px 0; }
@@ -42,7 +40,6 @@
   .download-section .right-mob-back {
     width: 250px; } }
 
-/* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) {
   .header-area .logo {
     margin: 20px 0; }
@@ -145,5 +142,3 @@
         line-height: 36px; }
   .subscription .form-group input {
     width: 300px; } }
-
-/* Wide Mobile Layout: 480px. */

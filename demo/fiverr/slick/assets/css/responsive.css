@@ -1,0 +1,108 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .logo h2 {
+    font-size: 14px;
+  }
+  .hero-area .hero-text h1 {
+    font-size: 36px;
+  }
+  .aboutus-section .aboutus-text h2 {
+    font-size: 24px;
+  }
+  .aboutus-section .aboutus-text p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .footer-section .footer-widget .social-icons a .fa {
+    margin-right: 5px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    margin: 20px 0;
+    margin-left: 15px;
+  }
+  .logo h2 {
+    font-size: 8px;
+  }
+  .navbar-custom .navbar-nav {
+    margin-top: 0;
+  }
+  .navbar-custom .navbar-nav li {
+    margin-right: 0;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  .navbar-custom .navbar-nav li:hover a, .navbar-custom .navbar-nav li.active a {
+    border-bottom: 0;
+  }
+  .navbar-custom .navbar-nav li:last-child {
+    border-bottom: 0;
+  }
+  .navbar-custom .navbar-nav li a {
+    text-align: center;
+    border-bottom: 0 !important;
+  }
+  .navbar-custom .navbar-nav li a:hover {
+    border-bottom: 0 !important;
+  }
+  .hero-area .hero-text {
+    text-align: center;
+  }
+  .hero-area .hero-text h1 {
+    font-size: 34px;
+  }
+  .hero-area .hero-image {
+    margin-top: 30px;
+  }
+  .hero-area .hero-image .hero-carousel img {
+    width: 150px;
+    height: 150px;
+  }
+  .section-padding {
+    padding: 40px 0;
+  }
+  .aboutus-section .aboutus-text h2 {
+    font-size: 26px;
+  }
+  .aboutus-section .aboutus-text p {
+    font-size: 14px;
+  }
+  .aboutus-section .aboutus-text .btn {
+    margin-top: 10px;
+  }
+  .aboutus-section .about-us-image {
+    margin: 35px 0;
+  }
+  .aboutus-section .about-us-image img {
+    width: 130px;
+  }
+  .btn-common {
+    padding: 6px 10px;
+    font-weight: 500;
+  }
+  .section-title h2 {
+    font-size: 26px;
+  }
+  .section-title p {
+    font-size: 14px;
+  }
+  .section-title p br {
+    display: none;
+  }
+  .single-service {
+    text-align: center;
+    margin: 20px;
+  }
+  .single-service .media-left {
+    display: block;
+    margin-bottom: 15px;
+  }
+  .single-service .media-left .fa {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+  .single-service .media-body h2 {
+    font-size: 15px;
+  }
+}

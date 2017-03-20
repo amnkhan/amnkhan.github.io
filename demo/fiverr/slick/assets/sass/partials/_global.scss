@@ -23,12 +23,18 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     -webkit-font-smoothing: subpixel-antialiased;
-    color: #212121;
+    color: #666;
     line-height: 25px;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-
+ul {
+    margin-left: 0;
+    padding-left: 0;
+    li {
+        list-style: none;
+    }
+}
 a{
     
     -webkit-transition: all 0.2s linear;
@@ -65,18 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.section-titile-bg {
-    display: inline;
-    font-size: 115px;
-    font-weight: 800;
-    height: 100%;
-    left: -173px;
-    opacity: 0.1;
-    position: absolute;
-    top: -14px;
-    width: 100%;
-    text-align: center;
-}
+
 
 .mea-section-quote blockquote {
   border-left-width: 2px;
@@ -84,16 +79,16 @@ h1, h2, h3, h4, h5, h6 {
 .sub-quote p {
     padding-left: 20px;
 }
-.section-title {
-  font-size: 48px;
-  font-weight: 700;
-  position: absolute;
+.section-title h2 {
+  font-size: 32px;
+  font-weight: 500 !important;
   text-transform: capitalize;
-  top: 26px;
+  color: #333;
 }
-.subtitle {
-    font-size: 20px;
-    font-weight: 700;
+.section-title p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #666;
 }
 .inner-title {
     font-size: 24px;
@@ -105,10 +100,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
   color: #ddd;
 }
-.page-title {
-  font-size: 62px;
-  font-weight: 700;
-  color: #fff;
+.page-title h2 {
+  font-size: 40px;
+  font-weight: 500;
+  color: #333;
 }
 .contact-title {
   font-weight: 700;
@@ -139,20 +134,37 @@ $transition: all 0.3s ease-in-out;
 // Button Styles
 .btn-common {
     padding: 10px 20px;
-    letter-spacing: 0.1rem;
+    letter-spacing: 1px;
     font-weight: 700;
     color: #fff !important;
     text-transform: uppercase;
     border-radius: 3px;
     @include button-shadow;
     font-size: 12px !important;
+    .fa {
+        font-size: 15px;
+    }
 }
 
-
+.btn-buy {
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    @include button-shadow
+    transition: $transition;
+    &:hover {
+        color: #f5f5f5;
+        opacity: 0.8;
+    }
+}
+.btn-buy i {
+    padding-right: 5px
+}
 
 .section-dark {
-    background-color: #f9f9f9;
-    z-index: -2;
+    background-color: #F3F5FA;
 }
 /* ScrollToTop */
 a.back-to-top{
@@ -184,7 +196,7 @@ a.back-to-top{
 
 // Carousel Styles
 .owl-carousel .item {
-    margin: 3px;
+    margin: 5px;
 }
 .owl-carousel.item img {
     display: block;
@@ -228,7 +240,7 @@ a.back-to-top{
 
 //Helper Classes
 .section-padding {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 .mt-10 {
     margin-top: 10px;

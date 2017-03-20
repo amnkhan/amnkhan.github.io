@@ -49,7 +49,7 @@ a{
 
 .navbar-toggle {
     background: $preset;
-    margin-top: 30px;
+    margin-top: 22px;
     .icon-bar {
     	background: #fff;
     }
@@ -60,3 +60,71 @@ a{
 	@include gredients;
 	color: #fff;
 }
+
+.btn-buy {
+    background: $preset;
+}
+.price {
+    background: $preset;
+}
+
+  .product-carousel {
+      .owl-nav [class*=owl-]:hover {
+          background: $preset;
+      }
+}
+
+.single-service {
+    .media-left {
+        .fa {
+            border: 2px solid $preset;
+        }
+    }
+    &:hover .media-left {
+        .fa {
+            @include gredients;
+            color: #fff;
+            border: none;;
+        }
+    }
+}
+
+// Footer
+
+.social-icons {
+    a {
+        .fa {
+            &:hover {
+                @include gredients;
+                
+            }
+        }
+    }
+}
+
+// Page title Section
+.page-title-setion.jumbotron {
+    &:before {
+        @include gredients;
+    }
+}
+
+
+// Section
+.section-text ul li .fa {
+    color: $preset;
+}
+
+// Contact Us
+#contactForm {
+    .form-control {
+        &:focus {
+            color: $preset;
+            border: 1px solid $preset;
+        }
+    }
+}
+.single-sidebar p .fa {
+    color: $preset;
+}
+

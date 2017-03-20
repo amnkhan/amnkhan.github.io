@@ -7,8 +7,14 @@
 		"uuidString": "5F2B093E-EE9E-4625-A00E-78723DCE3749"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25704",
 "files": {
+	"\/about.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/about.html",
+		"oF": 0
+		},
 	"\/assets\/css\/animate.css": {
 		"aP": 1,
 		"bl": 0,
@@ -69,6 +75,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/assets\/css\/responsive.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/responsive-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/css\/style.css": {
 		"aP": 1,
 		"bl": 0,
@@ -119,6 +135,25 @@
 		"oAP": "\/assets\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
+	"\/assets\/images\/about.jpeg": {
+		"ft": 16384,
+		"iS": 93032,
+		"oA": 0,
+		"oAP": "\/assets\/images\/about.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/about.png": {
+		"ft": 32768,
+		"iS": 251862,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/about.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/ajax-loader.gif": {
 		"ft": 4194304,
 		"iS": 3208,
@@ -127,53 +162,206 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/images\/carousel\/product1.png": {
+		"ft": 32768,
+		"iS": 100321,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/carousel\/product1.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/carousel\/product2.png": {
+		"ft": 32768,
+		"iS": 78403,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/carousel\/product2.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/carousel\/product3.png": {
+		"ft": 32768,
+		"iS": 95736,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/carousel\/product3.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/carousel\/product4.png": {
+		"ft": 32768,
+		"iS": 98001,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/carousel\/product4.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/carousel\/product5.png": {
+		"ft": 32768,
+		"iS": 90279,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/carousel\/product5.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/original-1.jpeg": {
+		"ft": 16384,
+		"iS": 84058,
+		"oA": 0,
+		"oAP": "\/assets\/images\/original-1.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/original-2.jpeg": {
+		"ft": 16384,
+		"iS": 79839,
+		"oA": 0,
+		"oAP": "\/assets\/images\/original-2.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/original-3.jpeg": {
+		"ft": 16384,
+		"iS": 87565,
+		"oA": 0,
+		"oAP": "\/assets\/images\/original-3.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/original-4.jpeg": {
+		"ft": 16384,
+		"iS": 70510,
+		"oA": 0,
+		"oAP": "\/assets\/images\/original-4.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/original-5.jpeg": {
+		"ft": 16384,
+		"iS": 77007,
+		"oA": 0,
+		"oAP": "\/assets\/images\/original-5.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/original.jpeg": {
+		"ft": 16384,
+		"iS": 97051,
+		"oA": 0,
+		"oAP": "\/assets\/images\/original.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/owl.video.play.png": {
 		"ft": 32768,
 		"iS": 4976,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/owl.video.play.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/pagetitle-bg.jpg": {
+		"ft": 16384,
+		"iS": 286743,
+		"oA": 0,
+		"oAP": "\/assets\/images\/pagetitle-bg.jpg",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/payment-methods-1.png": {
+		"ft": 32768,
+		"iS": 24870,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/payment-methods-1.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/payment-methods.png": {
+		"ft": 32768,
+		"iS": 10164,
+		"l": 1,
+		"oA": 0,
+		"oAP": "\/assets\/images\/payment-methods.png",
+		"oF": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/Preloader.gif": {
+		"ft": 4194304,
+		"iS": 84698,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Preloader.gif",
 		"oF": 0,
 		"opt": 0
 		},
 	"\/assets\/images\/product1.png": {
 		"ft": 32768,
 		"iS": 369682,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/product1.png",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/assets\/images\/product2.png": {
 		"ft": 32768,
 		"iS": 112655,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/product2.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/images\/product3.png": {
 		"ft": 32768,
 		"iS": 214438,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/product3.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/images\/product4.png": {
 		"ft": 32768,
 		"iS": 193403,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/product4.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/images\/product5.png": {
 		"ft": 32768,
 		"iS": 177149,
+		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/images\/product5.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/js\/bootstrap.min.js": {
 		"ft": 64,
@@ -320,7 +508,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/responsive.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
 		},
 	"\/assets\/sass\/style.scss": {
@@ -333,13 +521,31 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/style.css",
 		"oF": 0,
-		"oS": 0,
+		"oS": 1,
 		"uL": 1
+		},
+	"\/contact.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/contact.html",
+		"oF": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/products.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/products.html",
+		"oF": 0
+		},
+	"\/story.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/story.html",
 		"oF": 0
 		}
 	},
@@ -1023,6 +1229,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -1502,6 +1712,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -2102,7 +2316,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -2195,7 +2410,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,

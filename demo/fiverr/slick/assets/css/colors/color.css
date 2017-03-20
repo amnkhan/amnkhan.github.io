@@ -23,7 +23,7 @@ a {
 
 .navbar-toggle {
   background: #3498db;
-  margin-top: 30px; }
+  margin-top: 22px; }
   .navbar-toggle .icon-bar {
     background: #fff; }
 
@@ -31,3 +31,39 @@ a {
   background-image: -webkit-linear-gradient(left, #4facfe 0%, #00f2fe 100%);
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
   color: #fff; }
+
+.btn-buy {
+  background: #3498db; }
+
+.price {
+  background: #3498db; }
+
+.product-carousel .owl-nav [class*=owl-]:hover {
+  background: #3498db; }
+
+.single-service .media-left .fa {
+  border: 2px solid #3498db; }
+
+.single-service:hover .media-left .fa {
+  background-image: -webkit-linear-gradient(left, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+  color: #fff;
+  border: none; }
+
+.social-icons a .fa:hover {
+  background-image: -webkit-linear-gradient(left, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); }
+
+.page-title-setion.jumbotron:before {
+  background-image: -webkit-linear-gradient(left, #4facfe 0%, #00f2fe 100%);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); }
+
+.section-text ul li .fa {
+  color: #3498db; }
+
+#contactForm .form-control:focus {
+  color: #3498db;
+  border: 1px solid #3498db; }
+
+.single-sidebar p .fa {
+  color: #3498db; }

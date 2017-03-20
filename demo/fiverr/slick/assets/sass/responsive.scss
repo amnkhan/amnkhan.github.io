@@ -1,19 +1,155 @@
-/* Medium Layout: 1280px. */
+// Medium Layout
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
   
     
 }
-/* Tablet Layout: 768px. */
+// Tablet Layout
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
     
+    // Logo
+    .logo h2 {
+        font-size: 14px;
+    }
+    
+    // Hero Area
+    .hero-area .hero-text h1 {
+        font-size: 36px;
+    }
+    // About Section
+    .aboutus-section .aboutus-text h2 {
+        font-size: 24px;
+    }
+    .aboutus-section .aboutus-text p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    // Social Icons
+    .footer-section .footer-widget .social-icons a .fa {
+        margin-right: 5px;
+    }
 }
-/* Mobile Layout: 320px. */
+// Mobile Layout
 @media only screen and (max-width: 767px) { 
- 
+     // Logo
+    .logo {
+        margin: 20px 0;
+        margin-left: 15px;
+        h2 {
+            font-size: 8px;
+        }
+    }
+    // Navbar
+    .navbar-custom {
+        .navbar-nav {
+            margin-top: 0;
+            li {
+                margin-right: 0;
+                border-bottom: 1px solid darken(#fff , 5%);
+                &:hover a , &.active a {
+                    border-bottom: 0;
+                }
+                &:last-child {
+                    border-bottom: 0;
+                }
+                a {
+                    text-align: center;
+                    border-bottom: 0 !important;
+                    &:hover {
+                        border-bottom: 0 !important;
+                    }
+                }
+            }
+        }
+    }
+    
+    // Hero area
+    .hero-area {
+        .hero-text {
+        text-align: center;
+            h1 {
+                font-size: 34px;
+            }
+            p {
+
+            }
+        }
+        .hero-image {
+            margin-top: 30px;
+            .hero-carousel {
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+    
+    // Section Padding
+    .section-padding {
+        padding: 40px 0;
+    }
+    // About Us Section
+    .aboutus-section {
+        .aboutus-text {
+            h2 {
+               font-size: 26px; 
+            }
+            p {
+                font-size: 14px;
+            }
+            .btn {
+                margin-top: 10px;
+            }
+        }
+        .about-us-image {
+            margin: 35px 0;
+            img {
+                width: 130px;
+            }
+        }
+    }
+    
+    // Btn Common
+    .btn-common {
+        padding: 6px 10px;
+        font-weight: 500;
+    }
+    
+    // Section Title
+    .section-title {
+        h2 {
+           font-size: 26px; 
+        }
+        p {
+            font-size: 14px;
+            br {
+                display: none;
+            }
+        }
+    }
+    // Single Service
+    .single-service {
+    text-align: center;
+    margin: 20px;
+    }
+
+    .single-service .media-left {
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .single-service .media-left .fa {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+
+    .single-service .media-body h2 {
+        font-size: 15px;
+    }
     
 }
-/* Wide Mobile Layout: 480px. */
+// Wide Mobile Layout
 @media only screen and (min-width: 480px) and (max-width: 767px) { 
 
 }

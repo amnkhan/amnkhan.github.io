@@ -1,0 +1,9 @@
+.pace .pace-progress {background: #DC6716;}
+.bigIcon,.socialList li a:hover{color: #DC6716;}
+.btn-new,.downloadNumber{background: #DC6716;}
+.btn-new:hover,.btn-new:focus{background: #DC6716;}
+#share{background-color: #DC6716;}
+ul.nav li a.blogLi{color: #DC6716;}
+.navbar-nav li.active a,.navbar-nav li a:hover {
+    color:#DC6716;
+}

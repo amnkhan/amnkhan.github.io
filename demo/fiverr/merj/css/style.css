@@ -422,16 +422,18 @@ h6{
 #share h2{
     font-size:50px;    
 }
-.shareIcons{
-    font-size: 24px;
-}
-.jssocials-share-link{
+.share-friends i {
     color: #fff;
-    padding: 0.8em 1em;
-    min-width: 110px;
+    font-size: 65px;
+    margin: 0 20px;
+    opacity: 0.8;
 }
-.jssocials-share-link.jssocials-share-link-count{
-    padding-top: 0.5em;
+.share-friends i:hover {
+    opacity: 1;
+}
+
+.share-friends {
+    margin-top: 50px;
 }
 
 /* app-brief1 ---------------------------------------------------------------- */

@@ -1,0 +1,27 @@
+//All Preset color variables are here
+
+// Blue Preset
+ $blue: #3498db;
+ $blue-dark: darken($blue , 15%);
+ $blue-70: rgba(52, 152, 219, 0.7);
+ $blue-90: rgba(52, 152, 219, 0.9);
+ $blue-20: rgba(52, 152, 219, 0.2);
+ $blue-slider: rgba(52, 152, 219, 0.66);
+
+ // Grey Preset
+ $grey: #95a5a6;
+ $grey-dark: darken($grey , 15%);
+ $grey-70: rgba(149, 165, 166, 0.7);
+ $grey-90: rgba(149, 165, 166, 0.9);
+ $grey-20: rgba(149, 165, 166, 0.2);
+ $grey-slider: rgba(149, 165, 166, 0.66);
+
+
+
+//Current Preset Declareation
+ $preset:  $blue;
+ $preset-dark:  $blue-dark;
+ $preset-70:  $blue-70;
+ $preset-90:  $blue-90;
+ $preset-20:  $blue-20;
+ $preset-slider:  $blue-slider;

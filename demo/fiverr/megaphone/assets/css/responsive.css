@@ -1,0 +1,10 @@
+@media only screen and (max-width: 767px) {
+  .header-area .logo img {
+    width: 48px !important; }
+  .header-area .navbar-custom {
+    height: 60px !important; }
+    .header-area .navbar-custom .navbar-toggle {
+      margin-top: 17px; }
+    .header-area .navbar-custom .navbar-nav {
+      background: #fff;
+      text-align: center; } }

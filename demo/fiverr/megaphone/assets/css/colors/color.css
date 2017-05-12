@@ -1,0 +1,9 @@
+a {
+  color: #3498db; }
+  a:hover {
+    color: #1d6fa5; }
+
+.btn-common {
+  background: #3498db; }
+  .btn-common:hover, .btn-common:focus {
+    background: #1d6fa5 !important; }

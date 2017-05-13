@@ -26,6 +26,59 @@ $('#screenshotCarousel').owlCarousel({
     }
 });
 
+// Responsive Menu
+$("ul.nav.navbar-nav li a").click(function() {
+    $(".navbar-collapse").removeClass("in");
+});
+
+// jQuery Smooth Scroll
+$('.page-scroll').on('click', function(event) {
+    var $anchor = $(this),
+        headerH = '55';
+    $('html , body').stop().animate({
+        scrollTop: $($anchor.attr('href')).offset().top - headerH + "px",
+    }, 1200, 'easeInOutExpo');
+
+    event.preventDefault();
+});
+
+
+// jQuery ScrollSpy
+$('body').scrollspy({
+    target: '.navbar-collapse',
+    offset: 70
+});
+
+
+  //FancyBox
+  $(".fancybox").on("click", function () {
+      $.fancybox({
+          href: this.href,
+          type: $(this).data("type")
+      });
+      return false;
+  }); // on
+  $(".various").fancybox({
+      maxWidth    : 1000,
+      maxHeight   : 600,
+      fitToView   : true,
+      width       : '100%',
+      height      : '100%',
+      autoSize    : true,
+      closeClick  : false,
+      openEffect  : 'none',
+      closeEffect : 'none'
+  });
+  
+// WOW
+var wow = new WOW({
+    //disabled for mobile
+    mobile: false
+});
+wow.init();
+
+
+
 // Back Top Link
 var offset = 200;
 var duration = 500;

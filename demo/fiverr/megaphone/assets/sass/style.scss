@@ -87,8 +87,17 @@
         .navbar-nav {
             padding-top: 25px;
             li {
+                &:last-child {
+                    a:after {
+                        background-image: none;
+                    }
+                }
                 a {
                     background: none;
+                    &:focus {
+                        background: none;
+                        color: $primary-color;
+                    }
                 }
             }
             li.active {
@@ -195,6 +204,7 @@
         border-radius: 50%;
         background-image: $primary-gradient;
         color: #fff;
+        @include icon-shadow;
     }
     h2 {
         margin-top: 0;
@@ -335,4 +345,67 @@
     .footer-text p {
         font-size: 16px;
     }
+}
+
+
+// Video Section
+.video-section {
+  position: relative;
+  width: 100%;
+  height: 490px;
+  background: url(../images/video.jpg) no-repeat scroll center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.video-section #promo-video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.video-section .video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: $primary-gradient;
+  opacity: 0.7
+}
+
+.video-section .btn-video {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 15px 25px;
+  border-radius: 30px;
+  opacity: 1;
+  font-size: 14px;
+  letter-spacing: 0.1rem;
+}
+
+.video-section .btn-video .fa {
+  margin-right: 10px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  color: #333;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.video-section .btn-video:hover, .video-section .btn-video:focus, .video-section .btn-video:active {
+  opacity: 0.6;
+}
+
+.fancybox-lock .fancybox-overlay {
+    z-index: 999999999999;
 }

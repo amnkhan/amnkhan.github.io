@@ -49,6 +49,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/assets\/css\/jquery.fancybox.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/jquery.fancybox-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/css\/owl.carousel.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -56,6 +66,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/assets\/css\/owl.carousel.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/responsive.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/responsive-min.css",
 		"oF": 0,
 		"oS": 0
 		},
@@ -267,11 +287,48 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/jquery-min-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery-min-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/js\/jquery-min.js": {
 		"ft": 64,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/jquery-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery.easing.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery.easing.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/assets\/js\/jquery.fancybox-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery.fancybox-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/js\/jquery.fancybox.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/jquery.fancybox-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -391,6 +448,18 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/assets\/video\/megaphone.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/video\/megaphone.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/megaphone.webm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/video\/megaphone.webm",
+		"oF": 0
 		},
 	"\/index.html": {
 		"ft": 8192,

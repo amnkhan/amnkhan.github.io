@@ -1,0 +1,95 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .head-title {
+        font-size: 38px;
+    }
+    .home-screen-slide {
+        padding: 45px 12px;
+        position: absolute;
+        right: 0;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        width: 25%;
+    }
+    .video-section {
+        height: 430px;
+    }
+    .contact {
+        width: 60%;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .mainmenu-area .navbar-toggle {
+        background-color: transparent;
+        border: 1px solid #1c1c38;
+        border-radius: 1px;
+        height: 34px;
+        margin-top: 12px;
+        -webkit-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .mainmenu-area .navbar-toggle .icon-bar {
+        background-color: #1c1c38;
+        -webkit-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+    }
+    .navbar-brand>img {
+        width: 50px;
+    }
+    .header-button {
+        text-align: center;
+    }
+    .gray-bg a img {
+        margin: 5px 0;
+    }
+    .header-button a img {
+        margin: 5px 0;
+    }
+    .mainmenu-area .navbar-toggle:hover {
+        background-color: #1c1c38;
+    }
+    .mainmenu-area .navbar-toggle:hover .icon-bar {
+        background-color: #ffffff;
+    }
+    .head-title {
+        font-size: 36px;
+    }
+    .media-body,
+    .media-left,
+    .media-right {
+        display: block;
+    }
+    .video-section {
+        height: 180px;
+    }
+    .contact {
+        padding: 25px;
+        top: 60px;
+        width: 90%;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .video-section {
+        height: 204px;
+    }
+}

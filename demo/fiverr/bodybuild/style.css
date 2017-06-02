@@ -1,0 +1,975 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: AppForest HTML5 Template,
+    Template URI: http://bdexpert.com
+    Description: This is html5 template
+    Author: BDExpert
+    Author URI: http://bdexpert.com
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+    
+    CSS INDEX
+    -------------------
+	0. Theme Default CSS (body, link color, section etc),
+
+-----------------------------------------------------------------------------------
+Google-Fonts
+-------------------*/
+
+@import url('https://fonts.googleapis.com/css?family-Roboto:300,400,500,700');
+
+/* 0. Theme Default CSS (body, link color, section etc) 
+--------------------------------------------------------*/
+
+a {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    color: #453e4a;
+    text-decoration: none;
+    outline: none;
+}
+
+a:hover {
+    color: #1d2247;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #453e4a;
+    line-height: 1.5;
+}
+/* Remove Chrome Input Field's Unwanted Yellow Background Color */
+/*---------------------
+Helper Class
+----------------------*/
+
+.relative {
+    position: relative;
+}
+
+.page-title {
+    display: block;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.vcenter {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.page-title:after,
+.page-title:before {
+    background-color: #453e4a;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    width: 100px;
+    border-radius: 2px;
+}
+
+.page-title:before {
+    bottom: -10px;
+    width: 60px;
+}
+
+.bttn {
+    border: 1px solid #322F31;
+    border-radius: 2px;
+    background: transparent;
+    color: #322F31;
+    display: inline-block;
+    margin: 5px 5px 5px 0;
+    padding: 10px 40px;
+    font-weight: 700;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    color: #322F31;
+}
+
+.bttn.round {
+    border-radius: 100px;
+}
+
+.bttn:focus,
+.bttn:hover {
+    background-color: #FFF100;
+    color: #00B6F0;
+}
+
+.bttn i {
+    margin-right: 5px;
+}
+
+.black-bg {
+    background-color: #1C1C38;
+}
+
+.gray-bg {
+    background-color: #F5F7FB;
+}
+
+.red-bg {
+    background-color: #FFF100;
+}
+
+.read-more {
+    padding: 10px;
+}
+
+.read-more:after {
+    content: "\eb3a";
+    font-family: 'icofont';
+    display: inline-block;
+    -webkit-transform: translate(0, 0px);
+    transform: translate(0, 0px);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.read-more:hover:after {
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    -webkit-transform: translate(5px, 0);
+    transform: translate(5px, 0);
+}
+
+/*---------------------
+Section-Backgroun-Style
+----------------------*/
+.section-bg {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.section-bg.bg1 {
+    background-image: url("images/hero-image.jpg");
+}
+
+.section-bg.bg2 {
+    background-image: url(images/header-bg.jpg)
+}
+
+.section-bg:after {
+    background-color: rgba(255, 241, 0, 0.8);
+    content: "";
+    height: 100%;
+    left: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.header-bg:before {
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+    background: url("images/from_canva.svg") repeat-x scroll top center;
+    height: 12%;
+}
+
+.text-red a,
+.text-red {
+    color: #FFF100;
+}
+
+.text-white a,
+.text-white {
+    color: #231F20;
+}
+
+/*--------------------
+Header-Style
+---------------------*/
+
+.head-title {
+    font-size: 60px;
+}
+
+.header-button > a {
+    margin: 0 5px;
+}
+
+.header-button > a:hover {
+    background-color: #ffffff;
+    color: #202020;
+}
+
+.home-screen-slide {
+    background: rgba(0, 0, 0, 0) url("images/tr-mobile.png") no-repeat scroll center center / cover;
+    padding: 60px 15px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 22%;
+}
+
+.home-screen-slide .owl-controls {
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+.home-screen-slide .owl-controls .owl-nav div {
+    display: inline-block;
+    font-size: 20px;
+    height: 40px;
+    line-height: 2;
+    margin-top: 5px;
+    text-align: center;
+    width: 40px;
+    color: #1C1C38
+}
+
+.home-screen-slide .owl-controls .owl-nav div.owl-next {
+    float: right;
+}
+
+/*--------------------
+Mainmenu-area
+----------------------*/
+
+.mainmenu-area {
+    padding: 20px 0;
+    background: none;
+    border: none;
+    margin: 0;
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.mainmenu-area.affix {
+    background-color: #ffffff;
+    padding: 5px 0;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2)
+}
+
+#mainmenu ul.nav.navbar-nav {
+    margin-top: 30px;
+}
+.mainmenu-area.affix #mainmenu ul.nav.navbar-nav {
+    margin-top: 0;
+    padding: 15px 0;
+} 
+#mainmenu ul.nav.navbar-nav li a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #1C1C38;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem
+}
+
+#mainmenu ul.nav.navbar-nav li.active a,
+#mainmenu ul.nav.navbar-nav li a:hover {
+    color: #333;
+    opacity: 0.7;
+}
+
+.navbar-brand {
+    padding: 5px;
+}
+
+/*---------------------
+5. Feature-Area
+-----------------------*/
+
+.single-feature {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    padding: 40px 20px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 3px;
+    -webkit-transform: translate(0px, 0);
+    transform: translate(0px, 0);
+}
+
+.single-feature:hover {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    -webkit-transform: translate(0px, -4px);
+    transform: translate(0px, -4px);
+    background: #FFF100;
+}
+
+.feature-icon {
+    color: #1d2247;
+    display: block;
+    font-size: 40px;
+    margin-bottom: 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.feature-title {
+    color: #322F31;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.single-feature:hover .feature-icon {
+    color: #00B6F0;
+}
+
+/*------------------
+6. Screen-slide
+--------------------*/
+
+.screen-slide .owl-item {
+    -webkit-transition: 0.6s;
+    transition: 0.6s;
+    padding: 20px 0;
+    -webkit-transform: scale(1);
+    transform: scale(1)
+}
+
+.screen-slide .owl-item.center {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+/*------------------
+7. Support-Area-Style
+-------------------*/
+
+.info i {
+    color: #FFF100;
+    margin-right: 5px;
+}
+
+/*----------------------
+8. Testimonial-Area-Style
+------------------------*/
+
+.testi-quote {
+    font-size: 60px;
+}
+
+.testimonial .owl-controls {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.testimonial .owl-controls .owl-dot {
+    border: 1px solid #1C1C38;
+    display: inline-block;
+    height: 12px;
+    margin: 0 5px;
+    width: 12px;
+}
+
+.testimonial .owl-controls .owl-dot.active {
+    background-color: #1C1C38;
+}
+
+/*----------------------
+Video-background
+----------------------*/
+
+.video-section {
+    height: 500px;
+    overflow: hidden;
+}
+
+.background-video #bg-video {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    z-index: -9;
+}
+
+.video-button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    border-radius: 100%;
+    line-height: 2;
+    z-index: 3
+}
+
+.video-button:focus,
+.video-button:hover {
+    color: #ffffff;
+}
+
+.waves-block {
+    position: absolute;
+    width: 384px;
+    width: 24rem;
+    height: 384px;
+    height: 24rem;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+.waves-block .waves {
+    position: absolute;
+    width: 384px;
+    width: 24rem;
+    height: 384px;
+    height: 24rem;
+    background: rgba(255, 255, 255, 0.2);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    border-radius: 320px;
+    background-clip: padding-box;
+    -webkit-animation: waves 3s ease-in-out infinite;
+    animation: waves 3s ease-in-out infinite;
+}
+
+.waves-block .wave-1 {
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
+}
+
+.waves-block .wave-2 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+.waves-block .wave-3 {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+@-webkit-keyframes waves {
+    0% {
+        -webkit-transform: scale(0.2, 0.2);
+        transform: scale(0.2, 0.2);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    50% {
+        opacity: 0.9;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    }
+    100% {
+        -webkit-transform: scale(0.9, 0.9);
+        transform: scale(0.9, 0.9);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+
+@keyframes waves {
+    0% {
+        -webkit-transform: scale(0.2, 0.2);
+        transform: scale(0.2, 0.2);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+    50% {
+        opacity: 0.9;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    }
+    100% {
+        -webkit-transform: scale(0.9, 0.9);
+        transform: scale(0.9, 0.9);
+        opacity: 0;
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
+}
+
+/*--------------------
+9. Pricing-Area-Style
+----------------------*/
+
+.single-price {
+    border: 1px solid #231F20;
+    border-radius: 3px;
+    padding: 40px;
+    color: #231F20;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+    box-shadow: 0 0 0 0 rgba(255, 241, 0, 0.1)
+}
+
+.single-price.active,
+.single-price:hover {
+    -webkit-transform: translate(-5px, -5px);
+    transform: translate(-5px, -5px);
+    box-shadow: 5px 5px 10px 0 rgba(255, 241, 0, 0.3);
+    background-color: #FFF100;
+    color: #231F20;
+}
+
+.price-head {
+    border-radius: 0 0 3px 3px;
+}
+
+.price-icon {
+    font-size: 30px;
+    line-height: 1;
+}
+
+.price-title {
+    font-size: 30px;
+    line-height: 1;
+}
+
+.price-rate {
+    font-size: 50px;
+    line-height: 1;
+    background-color: #333;
+    border-radius: 0 2px 2px 0;
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: -41px;
+    padding: 15px 40px 15px 40px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.single-price.active .price-rate,
+.single-price:hover .price-rate {
+    background-color: #231F20;
+    color: #FFF100;
+}
+
+.price-list li {
+    font-size: 16px;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.single-price.active .bttn,
+.single-price:hover .bttn {
+    color: #000;
+    border-color: #000;
+}
+
+.single-price.active .bttn:hover,
+.single-price:hover .bttn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+/*--------------------
+countdown-area
+---------------------*/
+
+.count-icon {
+    background-color: #00B6F0;
+    border-radius: 100%;
+    color: #FFF100;
+    display: block;
+    font-size: 30px;
+    height: 80px;
+    line-height: 2.6;
+    margin: auto;
+    width: 80px;
+}
+
+.count:after {
+    content: "+";
+    margin-left: 2px;
+}
+
+.count {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*--------------------
+Team-area
+---------------------*/
+
+.single-team {
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.single-team:hover {
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1)
+}
+
+.team-details {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 2;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-transform: translateX(20px);
+    transform: translateX(20px);
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.single-team:hover .team-details {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.team-title {
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.single-team:after {
+    background-color: #F5F7FB;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    -webkit-transition: 0.5s;
+    transition: 0.5s
+}
+
+.single-team:hover:after {
+    opacity: 0.9;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=90)";
+}
+
+/*------------------
+10. question-area
+--------------------*/
+
+.question-area .panel {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question-area .panel-title {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.question-area .panel-title > a {
+    color: #231F20;
+    display: block;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.question-area .panel-title > a:after {
+    position: absolute;
+    right: 0;
+    top: 13px;
+    font-family: 'icofont';
+    content: "\f072";
+    color: #181830;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    font-size: 18px;
+}
+p span {
+    color: #231F20;
+    font-weight: 500;
+}
+.question-area .panel-title > a.collapsed:after {
+    content: "\f0a3";
+    color: #231F20;
+}
+
+.question-area .panel-title > a > i {
+    float: right;
+}
+
+/*-------------------
+Blog-area
+---------------------*/
+
+.single-blog {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+
+.single-blog:hover {
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+.author-info li {
+    font-size: 13px;
+    color: #8c8c8c;
+}
+/*----------------------
+14. Footer-Area-Style
+-----------------------*/
+
+.footer-area {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+    border-top: none;
+    padding: 10px;
+}
+
+.footer-title:after {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.footer-title {
+    position: relative;
+    margin-bottom: 20px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.footer-area a:hover {
+    color: #FFF100;
+}
+
+.social-list {
+    text-align: center;
+}
+
+.social-list li {
+    margin: 0 0px;
+    padding: 0;
+}
+
+.social-list li a {
+    display: block;
+    height: 30px;
+    line-height: 2;
+    text-align: center;
+    width: 30px;
+    color: #1C1C38;
+    font-size: 16px;
+}
+
+.social-list li a:hover {
+    color: #FFF100;
+}
+
+
+/*--------------------
+15. Scroll-Top
+----------------------*/
+
+#scrollUp {
+    border: 1px solid #1d2247;
+    border-radius: 2px;
+    bottom: 30px;
+    color: #ffffff;
+    font-size: 18px;
+    height: 40px;
+    line-height: 2.2;
+    right: 30px;
+    text-align: center;
+    width: 40px;
+    background: #1d2247;
+}
+
+#scrollUp:hover {
+    box-shadow: 0 5px 10px -5px #ddd;
+    -webkit-transform: translate(0px, -5px);
+    transform: translate(0px, -5px);
+}
+
+
+/*------------------
+Map-Area-Style
+--------------------*/
+
+#maps {
+    height: 700px;
+    width: 100%;
+}
+
+/*------------------------
+Contact-form
+-------------------------*/
+
+#contact-form .form-control {
+    border-color: rgba(255, 255, 255, 0.5);
+    border-radius: 2px;
+    height: auto;
+    padding: 10px;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#contact-form .form-control:focus {
+    border-color: rgba(255, 255, 255, 0.5);
+    outline: 0;
+    box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.3)
+}
+
+#contact-form .form-control::-moz-placeholder {
+    color: #202020;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)"
+}
+
+#contact-form .form-control:-ms-input-placeholder {
+    color: #202020
+}
+
+#contact-form .form-control::-webkit-input-placeholder {
+    color: #202020
+}
+
+.contact-form {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.contact {
+    background-color: rgba(28, 28, 56, 0.8);
+    border-radius: 2px;
+    padding: 60px;
+    width: 40%;
+    position: absolute;
+    top: 60px;
+}
+
+.contact .bttn {
+    border: 1px solid #fff;
+    color: #ffffff;
+}
+
+.contact .bttn:hover {
+    background-color: #000;
+    color: #FFF100;
+    border: 1px solid #000;
+}
+
+
+/*------------------------
+footer-area
+-------------------------*/
+
+.gellary-control {
+    font-size: 20px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    background-color: #ffffff;
+}
+footer .text-white {
+    color: #fff;
+}
+
+footer a {
+    color: #fff !important;
+}
+.preloader .waves-block .waves {
+    background: rgba(255, 241, 0, 0.8);
+}
+.footer-bottom {
+    background-color: #111122;
+}
+.footer-bottom .social-list li a {
+    color: #ffffff;
+}

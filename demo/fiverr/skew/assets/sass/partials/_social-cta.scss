@@ -1,6 +1,8 @@
 .social-cta-section {
     background-color: #bcbec0;
+    @include display-middle(300px);
 }
+
 .social-cta-icons {
     a {
         .fa {

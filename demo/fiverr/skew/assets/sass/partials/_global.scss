@@ -5,6 +5,14 @@
 // Variables
 $primary-font: 'Open Sans', sans-serif;
 $transition: all 0.3s ease-in-out;
+
+// Wireframe color
+$green-color: #79B137;
+$pink-color: #DD5177;
+$violate-color: darken(#515A8C, 5%);
+$link-color: #3fc6f6;
+$primary-color: #3fc6f6;
+
 body {
 	font-family: $primary-font;
   font-size: 14px;
@@ -24,6 +32,7 @@ a{
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;
 	transition: all 0.2s linear;
+  color: $link-color;
 	&:hover{text-decoration: none;}
 	a:focus{
 	outline: none;
@@ -32,6 +41,33 @@ a{
 
 
 // Mixins
+
+// Display Middle
+@mixin display-middle($height) {
+	.display-table {
+      height: $height;
+      display: table;
+      width: 100%;
+      .display-table-cell {
+          display: table-cell;
+          vertical-align: middle;
+      }
+  }
+}
+
+// Diagonal Style
+@mixin diagonal-style {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    z-index: 11;
+}
+
 
 // Box Shadows
 @mixin icon-shadow {
@@ -46,14 +82,39 @@ a{
 }
 
 // Button Styles
-
-
-
-// Sectio Dark
-.section-dark {
-	background-color: #f9f9f9;
+.btn-consult {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: $primary-color;
+  border-radius: 3px;
+  border: 0;
+  padding: 10px 12px;
+  &:hover , &:focus {
+    color: #fff;
+    opacity: 0.7;
+  }
 }
 
+.view-top {
+  z-index: 999;
+}
+// Sectio Dark
+.section-dark {
+	background-color: #ebebeb !important;
+}
+.section-title {
+  h2 {
+      color: #737373;
+      font-size: 30px;
+      font-weight: 800;
+  }
+}
+.text-white {
+  color: #fff !important;
+}
+.text-off-white {
+  color: #a2a4a5 !important;
+}
 
 /* ScrollToTop */
 a.back-to-top{

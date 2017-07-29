@@ -235,6 +235,7 @@ Header-Style
 
 .head-title {
     font-size: 60px;
+    color: #00B6F0;
 }
 
 .header-button > a {
@@ -908,20 +909,12 @@ Contact-form
     color: #202020
 }
 
-.contact-form {
-    left: 0;
-    position: absolute;
-    top: 0;
-    width: 100%;
-}
+
 
 .contact {
     background-color: rgba(28, 28, 56, 0.8);
     border-radius: 2px;
     padding: 60px;
-    width: 40%;
-    position: absolute;
-    top: 60px;
 }
 
 .contact .bttn {

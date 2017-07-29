@@ -1,6 +1,6 @@
-
+// Static Image hero section
 .hero-section {
-    background-image: url(../images/hero-bg.jpg);
+    background-color: $green-color;
     width: 100%;
     background-size: cover;
     position: relative;
@@ -11,17 +11,8 @@
         width: 100%;
         height: 100%;
         content: "";
-        background-color: rgba(0, 0, 0, 0.6);
     }
-    .display-table {
-        height: 500px;
-        display: table;
-        width: 100%;
-        .display-table-cell {
-            display: table-cell;
-            vertical-align: middle;
-        }
-    }
+    @include display-middle(500px);
     .hero-heading {
         font-weight: 800;
         font-size: 72px;
@@ -34,5 +25,50 @@
         font-weight: 400;
         color: #fff;
         margin-top: 46px;
+    }
+}
+
+// Hero Slider Section
+.hero-slider-section {
+    @include display-middle(800px);
+    .single-hero-slider {
+        position: relative;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+            &::before {
+                position: absolute;
+                content: "";
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba( 0, 0, 0, 0.6 );
+            }
+    }
+    .owl-buttons {
+        div {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            background: $primary-color;
+            color: #fff;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            opacity: 0.7;
+            &:hover {
+                opacity: 1;
+            }
+        }
+        .owl-prev {
+            left: 10%;
+        }
+        .owl-next {
+            left: auto;
+            right: 10%;
+        }
     }
 }

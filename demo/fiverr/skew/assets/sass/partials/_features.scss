@@ -1,39 +1,88 @@
 .features-section {
     position: relative;
-    &:before {
-        position: absolute;
-        left: 0;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        content: "";
-    }
+    width: 100%;
+    @include display-middle(400px);
     h2 {
         font-weight: 800;
         font-size: 30px;
         color: #414042;
         line-height: 36px;
+        margin-top: 0;
     }
     p {
         margin-top: 20px;
         color: #414042;
         font-size: 14px;
     }
+    .post-pagination {
+        padding-top: 10px;
+        .pager {
+            li {
+                a {
+                    background: none;
+                    border: 0;
+                    color: #fff;
+                    text-transform: uppercase;
+                    padding: 0;
+                    &:hover {
+                        color: $link-color;
+                    }
+                }
+            }
+        }
+    }
+
 }
 .features-section-1 {
-    background-image: url(../images/feature-bg-1.jpg);
-    background-size: cover;
-    background-position: center;
-    // &:before {
-    //     background-color: rgba(255,255,255,0.2);
-    // }
+    background-color: $pink-color;
+    &::before {
+        @include diagonal-style;
+        background-color: $pink-color;
+        transform-origin: top right;
+        transform: skewY(2deg);
+    }
 }
 .features-section-2 {
-    background-image: url(../images/feature-bg-2.jpg);
-    background-size: cover;
-    background-position: center;
+    background-color: $violate-color;
+
     &:before {
-        background-color: rgba(0,0,0,0.7);
+        background-color: $violate-color;
+        @include diagonal-style;
+        transform-origin: left top;
+        transform: skewY(-2deg);
+    }
+}
+.features-section-3 {
+    background-color: #fff;
+    &::before {
+        @include diagonal-style;
+        background-color: #fff;
+        transform-origin: top right;
+        transform: skewY(2deg);
+    }
+}
+.features-section-4 {
+    background-color: #fff;
+    &::before {
+        @include diagonal-style;
+        background-color: #fff;
+        transform-origin: left top;
+        transform: skewY(-2deg);
+    }
+}
+.features-section-5 {
+    background-color: #fff;
+    &::before {
+        background-color: $violate-color;
+        @include diagonal-style;
+        transform-origin: left top;
+        transform: skewY(-2deg);
+    }
+    &:after {
+        background-color: $violate-color;
+        @include diagonal-style;
+        transform-origin: left top;
+        transform: skewY(2deg);
     }
 }
 .text-white {

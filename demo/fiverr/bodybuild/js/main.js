@@ -6,6 +6,23 @@ jQuery(document).on('ready', function ($) {
     new WOW().init({
         mobile: false
     });
+
+    /* Smooth Scroll
+    ===================*/
+    (function($){
+    $('.page-scroll').on('click', function(event) {
+        var $anchor = $(this),
+            headerH = '55';
+        $('html , body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top - headerH + "px",
+        }, 1200, 'easeInOutExpo');
+
+        event.preventDefault();
+    });
+
+
+    })(jQuery);
+
     /* Scroll to top
     ===================*/
     $.scrollUp({

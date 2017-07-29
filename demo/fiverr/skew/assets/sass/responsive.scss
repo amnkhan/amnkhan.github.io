@@ -5,12 +5,329 @@
 }
 // Tablet Layout
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+    // Hero Section
+    .hero-section {
+        .display-table {
+            height: 300px;
+        }
+        .hero-heading {
+            font-size: 58px;
+            line-height: 64px;
+        }
+        .hero-sub-heading {
+            font-size: 26px;
+            margin-top: 30px;
+        }
+    }
+    // About us section
+    .about-us-section , .about-us-section-dark {
+        .about-title {
+            &::before {
+                right: -45px;
+            }
+            h2 {
+                font-size: 32px;
+                line-height: 38px;
+            }
+        }
+        .about-quote {
+            margin-top: 30px;
+            h1 {
+                font-size: 32px;
+                line-height: 42px;
+            }
+        }
+    }
+
+    // Social CTA section
+    .social-cta-section {
+        .display-table {
+            height: 250px;
+        }
+    }
+    // Feature Section
+    .features-section .display-table {
+        height: 350px;
+    }
+
+    // Footer Bottom Section
+    .footer-bottom-section {
+        .display-table {
+            height: 150px;
+        }
+        .footer-links {
+            a {
+                padding: 0 10px;
+            }
+        }
+    }
+
+    // Page title section
+    .page-title-section  {
+        .display-table {
+            height: 250px;
+        }
+        .page-title {
+            h1 {
+                font-size: 48px;
+            }
+        }
+    }
+
+    // Team mate section
+    .our-team-section {
+        .team-mate {
+            .team-mate-image {
+                img {
+                    width: 100%;
+                }
+            }
+            .team-mate-info {
+                h2 {
+                    font-size: 20px;
+                }
+                .team-mate-post {
+                    font-size: 16px;
+                    margin-top: 12px;
+                }
+            }
+            .team-mate-social-profiles a .fa {
+                width: 25px;
+                height: 25px;
+                line-height: 23px;
+                border: 1px solid #7b7d80;
+            }
+        }
+    }
     
 }
 // Small mobile layout
 @media only screen and (max-width: 767px) { 
- 
+    // Header area
+    .logo {
+        padding: 20px;
+        img {
+            margin-right: 5px;
+            width: 50px;
+        }
+        p {
+            font-size: 18px;
+            line-height: 25px;
+        }
+    }
+    .navbar-custom {
+        height: 90px;
+    }
+    // Hero Section
+    .section-padding {
+        padding: 60px 0;
+    }
+    .hero-section {
+        .display-table {
+            height: 200px;
+        }
+        .hero-heading {
+            font-size: 36px;
+            line-height: 42px;
+        }
+        .hero-sub-heading {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    }
+    // About us section
+    .about-us-section-dark {
+        .about-us-text {
+            margin-top: 90px;
+        }
+    }
+    .about-us-section , .about-us-section-dark {
+        .about-title {
+            height: 100px;
+            text-align: center;
+            &::before {
+                display: none;
+            }
+            h2 {
+                font-size: 30px;
+                line-height: 34px;
+            }
+        }
+        .about-quote {
+            margin-top: 0;
+            margin-bottom: 50px;
+            text-align: center;
+            h1 {
+                font-size: 28px;
+                line-height: 36px;
+            }
+        }
+        .about-us-text p {
+            padding: 0 20px;
+        }
+    }
+
+    // Social CTA section
+    .social-cta-section {
+        .display-table {
+            height: 200px;
+        }
+        .social-cta-icons {
+            a {
+                .fa {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+
+    // Feature Section
+    .features-section {
+        .display-table {
+            height: 350px;
+        }
+        h2 {
+            font-size: 24px;
+            line-height: 28px;
+        }
+    }
+    // Footer Top Section
+    .footer-top-section {
+        text-align: center;
+        .footer-widget {
+            margin: 35px 0;
+            h2 {
+                margin-bottom: 15px;
+            }
+        }
+        .social-icon-widget {
+            margin: 20px 0;
+        }
+    }
+    // Footer Bottom Section
+    .footer-bottom-section {
+        text-align: center;
+        .display-table {
+            height: 150px;
+        }
+        .footer-links {
+            text-align: center;
+            margin-top: 20px;
+            a {
+                padding: 0 5px;
+            }
+        }
+    }
+
+
+
+    // Single Post Page Styles
+    
+    // Page title section
+    .page-title-section  {
+        .display-table {
+            height: 135px;
+        }
+        .page-title {
+            h1 {
+                font-size: 26px;
+                line-height: 34px;
+            }
+            h3 {
+                font-weight: 400;
+                font-size: 18px;
+                margin-top: 8px;
+            }
+        }
+    }
+
+    // Team mate section
+    .our-team-section {
+        .team-mate {
+            margin-bottom: 50px;
+        }
+    }
+    .about-us-left {
+        .team-mate {
+            margin-top: 160px;
+            margin-bottom: 50px;
+        }
+    }
+    .about-us-text .post-date {
+        padding: 0 20px;
+    }
+    .team-mate {
+        text-align: center;
+        p {
+            padding: 0 20px;
+        }
+        .team-mate-info {
+            h2 {
+                font-size: 20px;
+                line-height: 26px;
+            }
+            .team-mate-post {
+                font-size: 18px;
+            }
+        }
+        .team-mate-social-profiles::before {
+            top: 50px;
+            margin: 0 auto;
+            right: 0;
+        }
+    }
+
+    // Blog Section
+    .blog-pagination-section {
+        padding-bottom: 10px;
+    }
+
+    // Testimonial Section
+    .single-testimonial {
+        &:before {
+            top: -10px;
+            left: 10px;
+            font-size: 28px;
+        }
+        .testimonial-image {
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .media-body {
+            text-align: center;
+            padding: 0 20px;
+        }
+    }
+    .section-title {
+        h2 {
+            font-size: 22px;
+        }
+    }
+
+    // Video Section 
+    .video-section {
+        .display-table {
+            height: 155px;
+            margin-top: 38px;
+            padding: 0;
+        }
+        .video-text {
+            p {
+                padding: 0 25px;
+            }
+        }
+        .video-wrapper {
+            a {
+                .fa {
+                    width: 60px;
+                    height: 60px;
+                    line-height: 60px;
+                    font-size: 33px;
+                }
+            }
+        }
+    }
     
 }
 // Wide Mobile layout

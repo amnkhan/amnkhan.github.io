@@ -1,5 +1,13 @@
 .footer-top-section {
     background-color: #ebebeb;
+    position: relative;
+    width: 100%;
+    &::before {
+        @include diagonal-style;
+        transform-origin: top right;
+        transform: skewY(2deg);
+        background-color: #ebebeb;
+    }
     .footer-widget {
         h2 {
             color: #929495;
@@ -35,6 +43,15 @@
 
 .footer-bottom-section {
     background-color: #bcbec0;
+    position: relative;
+    width: 100%;
+    @include display-middle(200px);
+    &::before {
+        @include diagonal-style;
+        transform-origin: left top;
+        transform: skewY(-2deg);
+        background-color: #bcbec0;
+    }
     a {
         font-weight: 700;
         color: #ebebeb;

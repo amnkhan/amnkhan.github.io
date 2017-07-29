@@ -1,0 +1,42 @@
+// Video Section Styles
+
+.video-section {
+    @include display-middle(600px);
+    .display-table {
+        padding-top: 80px;
+    }
+    .section-title {
+        h2 {
+            color: #a2a4a5;
+        }
+    }
+    .video-text {
+        p {
+            color: #a2a4a5;
+        }
+    }
+    .display-table-cell {
+        background-image: url(../images/video-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    .video-wrapper {
+        a {
+            .fa {
+                width: 150px;
+                height: 150px;
+                border: 1px solid #000;
+                line-height: 150px;
+                border-radius: 50%;
+                font-size: 68px;
+                color: #000;
+            }
+            &:hover {
+                .fa {
+                    opacity: 0.7;
+                }
+            }
+        }
+    }
+}

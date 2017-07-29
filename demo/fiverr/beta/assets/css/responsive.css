@@ -1,0 +1,165 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .hero-section .display-table {
+    height: 300px; }
+  .hero-section .hero-heading {
+    font-size: 58px;
+    line-height: 64px; }
+  .hero-section .hero-sub-heading {
+    font-size: 26px;
+    margin-top: 30px; }
+  .about-us-section .about-title::before, .about-us-section-dark .about-title::before {
+    right: -45px; }
+  .about-us-section .about-title h2, .about-us-section-dark .about-title h2 {
+    font-size: 32px;
+    line-height: 38px; }
+  .about-us-section .about-quote, .about-us-section-dark .about-quote {
+    margin-top: 30px; }
+    .about-us-section .about-quote h1, .about-us-section-dark .about-quote h1 {
+      font-size: 32px;
+      line-height: 42px; }
+  .social-cta-section .display-table {
+    height: 250px; }
+  .features-section .display-table {
+    height: 350px; }
+  .footer-bottom-section .display-table {
+    height: 150px; }
+  .footer-bottom-section .footer-links a {
+    padding: 0 10px; }
+  .page-title-section .display-table {
+    height: 250px; }
+  .page-title-section .page-title h1 {
+    font-size: 48px; }
+  .our-team-section .team-mate .team-mate-image img {
+    width: 100%; }
+  .our-team-section .team-mate .team-mate-info h2 {
+    font-size: 20px; }
+  .our-team-section .team-mate .team-mate-info .team-mate-post {
+    font-size: 16px;
+    margin-top: 12px; }
+  .our-team-section .team-mate .team-mate-social-profiles a .fa {
+    width: 25px;
+    height: 25px;
+    line-height: 23px;
+    border: 1px solid #7b7d80; } }
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    padding: 20px; }
+    .logo img {
+      margin-right: 5px;
+      width: 50px; }
+    .logo p {
+      font-size: 18px;
+      line-height: 25px; }
+  .navbar-custom {
+    height: 90px; }
+  .section-padding {
+    padding: 60px 0; }
+  .hero-section .display-table {
+    height: 200px; }
+  .hero-section .hero-heading {
+    font-size: 36px;
+    line-height: 42px; }
+  .hero-section .hero-sub-heading {
+    font-size: 18px;
+    margin-top: 20px; }
+  .about-us-section-dark .about-us-text {
+    margin-top: 90px; }
+  .about-us-section .about-title, .about-us-section-dark .about-title {
+    height: 100px;
+    text-align: center; }
+    .about-us-section .about-title::before, .about-us-section-dark .about-title::before {
+      display: none; }
+    .about-us-section .about-title h2, .about-us-section-dark .about-title h2 {
+      font-size: 30px;
+      line-height: 34px; }
+  .about-us-section .about-quote, .about-us-section-dark .about-quote {
+    margin-top: 0;
+    margin-bottom: 50px;
+    text-align: center; }
+    .about-us-section .about-quote h1, .about-us-section-dark .about-quote h1 {
+      font-size: 28px;
+      line-height: 36px; }
+  .about-us-section .about-us-text p, .about-us-section-dark .about-us-text p {
+    padding: 0 20px; }
+  .social-cta-section .display-table {
+    height: 200px; }
+  .social-cta-section .social-cta-icons a .fa {
+    margin-right: 5px; }
+  .features-section .display-table {
+    height: 350px; }
+  .features-section h2 {
+    font-size: 24px;
+    line-height: 28px; }
+  .footer-top-section {
+    text-align: center; }
+    .footer-top-section .footer-widget {
+      margin: 35px 0; }
+      .footer-top-section .footer-widget h2 {
+        margin-bottom: 15px; }
+    .footer-top-section .social-icon-widget {
+      margin: 20px 0; }
+  .footer-bottom-section {
+    text-align: center; }
+    .footer-bottom-section .display-table {
+      height: 150px; }
+    .footer-bottom-section .footer-links {
+      text-align: center;
+      margin-top: 20px; }
+      .footer-bottom-section .footer-links a {
+        padding: 0 5px; }
+  .page-title-section .display-table {
+    height: 135px; }
+  .page-title-section .page-title h1 {
+    font-size: 26px;
+    line-height: 34px; }
+  .page-title-section .page-title h3 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 8px; }
+  .our-team-section .team-mate {
+    margin-bottom: 50px; }
+  .about-us-left .team-mate {
+    margin-top: 160px;
+    margin-bottom: 50px; }
+  .about-us-text .post-date {
+    padding: 0 20px; }
+  .team-mate {
+    text-align: center; }
+    .team-mate p {
+      padding: 0 20px; }
+    .team-mate .team-mate-info h2 {
+      font-size: 20px;
+      line-height: 26px; }
+    .team-mate .team-mate-info .team-mate-post {
+      font-size: 18px; }
+    .team-mate .team-mate-social-profiles::before {
+      top: 50px;
+      margin: 0 auto;
+      right: 0; }
+  .blog-pagination-section {
+    padding-bottom: 10px; }
+  .single-testimonial:before {
+    top: -10px;
+    left: 10px;
+    font-size: 28px; }
+  .single-testimonial .testimonial-image {
+    display: block;
+    text-align: center;
+    margin-bottom: 20px; }
+  .single-testimonial .media-body {
+    text-align: center;
+    padding: 0 20px; }
+  .section-title h2 {
+    font-size: 22px; }
+  .video-section .display-table {
+    height: 155px;
+    margin-top: 38px;
+    padding: 0; }
+  .video-section .video-text p {
+    padding: 0 25px; }
+  .video-section .video-wrapper a .fa {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 33px; } }

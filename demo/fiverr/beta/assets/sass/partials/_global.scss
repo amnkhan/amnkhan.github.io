@@ -1,0 +1,239 @@
+
+// Font Family
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,700i,800,800i';
+
+// Variables
+$primary-font: 'Open Sans', sans-serif;
+$transition: all 0.3s ease-in-out;
+
+// Wireframe color
+$green-color: #79B137;
+$pink-color: #DD5177;
+$violate-color: darken(#515A8C, 5%);
+$link-color: #3fc6f6;
+$primary-color: #3fc6f6;
+
+body {
+	font-family: $primary-font;
+  font-size: 14px;
+    font-weight: 400;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing: subpixel-antialiased;
+    color: #737373;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+a{
+	
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+  color: $link-color;
+	&:hover{text-decoration: none;}
+	a:focus{
+	outline: none;
+	}
+}
+
+
+// Mixins
+
+// Display Middle
+@mixin display-middle($height) {
+	.display-table {
+      height: $height;
+      display: table;
+      width: 100%;
+      .display-table-cell {
+          display: table-cell;
+          vertical-align: middle;
+      }
+  }
+}
+
+// Diagonal Style
+@mixin diagonal-style {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    z-index: 11;
+}
+
+
+// Box Shadows
+@mixin icon-shadow {
+	box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, 0.28)
+}
+@mixin box-shadow {
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+@mixin button-shadow {
+  box-shadow: 0 3px 4.7px .3px rgba(0,0,0,.24) !important;
+}
+
+// Button Styles
+.btn-consult {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: $primary-color;
+  border-radius: 3px;
+  border: 0;
+  padding: 10px 12px;
+  &:hover , &:focus {
+    color: #fff;
+    opacity: 0.7;
+  }
+}
+
+.view-top {
+  z-index: 999;
+}
+// Sectio Dark
+.section-dark {
+	background-color: #ebebeb !important;
+}
+.section-title {
+  h2 {
+      color: #737373;
+      font-size: 30px;
+      font-weight: 800;
+  }
+}
+.text-white {
+  color: #fff !important;
+}
+.text-off-white {
+  color: #a2a4a5 !important;
+}
+
+/* ScrollToTop */
+a.back-to-top{
+  display: none;
+  position: fixed;
+  bottom: 18px;
+  right: 15px;
+  text-decoration: none;
+  i {
+  	  display: block;
+	  font-size: 18px;
+	  width: 55px;
+	  height: 55px;
+	  line-height: 55px;
+	  color: #fff;
+	  border-radius: 50%;
+	  text-align: center;
+	  transition: all 0.2s ease-in-out;
+	  -moz-transition: all 0.2s ease-in-out;
+	  -webkit-transition: all 0.2s ease-in-out;
+	  -o-transition: all 0.2s ease-in-out;
+	  @include icon-shadow;
+	}
+	&:hover , &:focus {
+		text-decoration: none;
+	}
+}
+
+
+// Carousel Styles
+
+
+// Preloader Styles
+#loader {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999999999;
+}
+.square-spin {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+}
+.square-spin img {
+  max-width: 64px;
+}
+
+
+//Helper Classes
+.section-padding {
+	padding: 100px 0;
+}
+.mt-10 {
+	margin-top: 10px;
+}
+.mt-20 {
+	margin-top: 20px;
+}
+.mt-30 {
+	margin-top: 30px;
+}
+.mt-40 {
+	margin-top: 40px;
+}
+.mt-50 {
+	margin-top: 50px;
+}
+.mt-70 {
+	margin-top: 70px;
+}
+.mt-80 {
+	margin-top: 80px;
+}
+.mt-100 {
+	margin-top: 100px;
+}
+.mt-200 {
+  margin-top: 200px;
+}
+.no-padding {
+	padding: 0 !important;
+}
+.padding-left-none {
+	padding-left: 0;
+}
+.padding-right-none {
+	padding-right: 0;
+}
+
+//  Fade IN
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+ 

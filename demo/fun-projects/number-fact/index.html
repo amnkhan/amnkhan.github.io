@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My New Pen!</title>
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+   
+   <!-- Styles -->
+   <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+  
+   <!--  Markup start here  -->
+   <section id="main-section" >
+      <div class="container">
+         <div class="row">
+              <div class="col-md-6 mx-auto">
+               <!-- Card -->
+                 <div class="card mt-5 p-4">
+                    <h2 class="text-center">Number Facts</h2>
+                    <p class="mt-2 text-center">Type a number and you will see a fact related to that!</p>
+                    <input type="number" class="form-control form-control-lg mt-4" id="numberInput" placeholder="Type a number to see fact.">
+                     <!-- fact div -->
+                    <div class="row">
+                       <div id="fact" class="card-body mt-3">
+                          <h4>Fact:</h4>
+                          <p id="fact-text" class="card-text mt-2">This is a fact</p>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+               <!-- Card Ends -->
+         </div>
+      </div>
+   </section>
+  
+  
+  <!-- Scripts -->
+   <script src="script.js"></script>
+</body>
+</html>

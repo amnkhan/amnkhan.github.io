@@ -24,7 +24,7 @@ body {
   font-weight: 500;
 }
 
-.header-section .navbar-nav .nav-item.active .nav-link, .header-section .navbar-nav .nav-item:hover .nav-link {
+.header-section .navbar-nav .nav-item:hover .nav-link {
   color: #2ecc71;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .section-title {
   position: relative;
-  font-size: 28px;
+  font-size: 30px;
   letter-spacing: 0.1rem;
   text-transform: capitalize;
   color: #333333;
@@ -98,6 +98,7 @@ body {
 
 .single-service {
   margin-bottom: 50px;
+  min-height: 230px;
 }
 
 .single-service .icofont {
@@ -124,6 +125,99 @@ body {
   color: #595959;
 }
 
+.cta-section {
+  background-color: aliceblue;
+  padding: 40px 0;
+}
+
+.cta-section .cta-text {
+  margin-bottom: 20px;
+}
+
+.cta-section .cta-text h1 {
+  font-size: 28px;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.cta-section .cta-btn .btn-common {
+  display: block;
+  font-size: 18px;
+}
+
+.single-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 300px;
+  background: #ffffff;
+  -webkit-box-shadow: 5.162px 7.372px 46px 0px rgba(0, 0, 0, 0.1);
+          box-shadow: 5.162px 7.372px 46px 0px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.single-contact .icofont {
+  font-size: 50px;
+  color: #2ecc71;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.single-contact h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.single-contact p {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.footer-section {
+  background: #333333;
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.footer-section p {
+  line-height: 1.6;
+  margin: 0;
+}
+
+.footer-section p a {
+  color: #2ecc71;
+}
+
+.footer-section .social-icons {
+  margin-top: 10px;
+}
+
+.footer-section .social-icons .icofont {
+  color: #333333;
+  background: #2ecc71;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.footer-section .social-icons .icofont:hover {
+  background: #29b765;
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .header-section .navbar-collapse {
     margin-top: 0px;
@@ -148,21 +242,6 @@ body {
     padding: 0 25px;
     letter-spacing: 0.5px;
   }
-  .header-section .navbar-collapse .nav-item.active .nav-link {
-    position: relative;
-  }
-  .header-section .navbar-collapse .nav-item.active .nav-link::before {
-    position: absolute;
-    bottom: -15px;
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-    width: 6px;
-    height: 6px;
-    background: #2ecc71;
-    content: "";
-    border-radius: 50px;
-  }
   .section-padding {
     padding: 120px 0;
   }
@@ -183,7 +262,7 @@ body {
     margin-top: 0px;
   }
   .section-title {
-    font-size: 34px;
+    font-size: 38px;
     margin-bottom: 30px;
   }
   .section-title::before {
@@ -207,5 +286,41 @@ body {
   }
   .single-service p {
     color: #333333;
+  }
+  .cta-section {
+    padding: 80px 0;
+  }
+  .cta-section .cta-text {
+    margin-bottom: 0px;
+  }
+  .cta-section .cta-text h1 {
+    font-size: 36px;
+    line-height: 1.4;
+    margin: 0;
+  }
+  .cta-section .cta-btn {
+    text-align: right;
+  }
+  .cta-section .cta-btn .btn-common {
+    display: inline-block;
+  }
+  .single-contact {
+    margin-bottom: 0px;
+  }
+  .single-contact .icofont {
+    font-size: 70px;
+    color: #7ee2a8;
+    display: block;
+    margin-bottom: 20px;
+  }
+  .single-contact h3 {
+    font-size: 22px;
+  }
+  .single-contact p {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  .footer-section .social-icons {
+    margin-top: 0px;
   }
 }

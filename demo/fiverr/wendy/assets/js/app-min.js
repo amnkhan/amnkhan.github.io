@@ -1,0 +1,1 @@
+!function(){var o=new SmoothScroll('a[href*="#"]')}();

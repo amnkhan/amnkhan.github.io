@@ -70,6 +70,17 @@
 		"oAP": "\/assets\/fonts\/icofont.woff",
 		"oF": 0
 		},
+	"\/assets\/images\/facebook.png": {
+		"ft": 32768,
+		"iS": 15199,
+		"oA": 0,
+		"oAP": "\/assets\/images\/facebook.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/logo.png": {
 		"ft": 32768,
 		"iS": 58111,

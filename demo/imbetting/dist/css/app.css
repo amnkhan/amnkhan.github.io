@@ -6831,7 +6831,7 @@ body {
 .log-in-section .log-in-inputs {
   background: rgba(24, 35, 58, 0.7);
   padding: 40px;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #96a6cb;
   text-align: center;
 }

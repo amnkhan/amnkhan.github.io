@@ -12,6 +12,8 @@
 @import "~bootstrap/scss/utilities/text";
 @import "~bootstrap/scss/forms";
 @import "~bootstrap/scss/media";
+@import "~bootstrap/scss/navbar";
+@import "~bootstrap/scss/nav";
 @import "~bootstrap/scss/input-group";
 @import "~bootstrap/scss/grid";
 
@@ -24,4 +26,7 @@
 // Custom Styles
 @import 'partials/var';
 @import 'partials/typography';
+@import 'partials/global';
+@import 'partials/buttons';
+@import 'partials/header';
 @import 'partials/login';

@@ -8035,3 +8035,43 @@ a:hover {
   content: "";
   z-index: -1;
 }
+
+.footer-section {
+  background-color: #162137;
+  padding: 20px;
+}
+
+.footer-section p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 14px;
+  color: #647086;
+}
+
+.footer-section .footer-icons {
+  margin-top: 10px;
+}
+
+.footer-section .footer-icons a {
+  margin-right: 10px;
+}
+
+.footer-section .footer-icons a:last-child {
+  margin-right: 0;
+}
+
+.footer-section .footer-icons i {
+  color: #647086;
+  font-size: 22px;
+  display: inline-block;
+}
+
+/**
+    RESPONSIVE STYLES GOES HERE
+    ===========================
+**/
+@media (min-width: 992px) {
+  .footer-section .footer-icons {
+    margin-top: 0;
+  }
+}

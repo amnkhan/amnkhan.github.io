@@ -22,7 +22,7 @@ a {
         height: 100%;
         top: 0;
         left: 0;
-        width: 235px;
+        width: 240px;
         content: "";
         background-color: #4165af;
         border-radius: 4px 0 0 4px;
@@ -62,6 +62,13 @@ a {
         i {
             margin: 0 5px;
             font-size: 22px;
+        }
+    }
+    .popular-games {
+        .section-title-wrapper {
+            &::before {
+                width: 400px;
+            }
         }
     }
 }

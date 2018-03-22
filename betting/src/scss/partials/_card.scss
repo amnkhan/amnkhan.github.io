@@ -36,6 +36,44 @@
 
 }
 
+// Single Card 2
+.single-card-2 {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    img {
+        width: 100%;
+        border-radius: 4px;
+    }
+
+    // overlay
+    .overlay {
+        position: absolute;
+        background-color: rgba(0 , 0, 0, 0.7);
+        top: 0;
+        left: -700px;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+        width: 90%;
+        height: 90%;
+        text-align: center;
+        padding: 80px 20px;
+        transition-property: left;
+        transition-duration: 0.3s, 0.2s;
+        p {
+            font-weight: 300;
+            font-size: 16px;
+            color: #bebebe;
+        }
+
+    }
+    &:hover .overlay {
+        left: 0;
+        cursor: pointer;
+    }
+
+}
 
 /**
     RESPONSIVE STYLES GOES HERE
@@ -65,4 +103,18 @@
         }
 
     }
+
+    // Single Card 2
+    .single-card-2 {
+        margin-bottom: 0;
+        // overlay
+        .overlay {
+            padding: 60px 20px;
+            p {
+                font-size: 14px;
+            }
+        }
+
+    }
+
 }

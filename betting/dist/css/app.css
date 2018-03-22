@@ -7411,7 +7411,7 @@ a:hover {
   height: 100%;
   top: 0;
   left: 0;
-  width: 235px;
+  width: 240px;
   content: "";
   background-color: #4165af;
   border-radius: 4px 0 0 4px;
@@ -7448,6 +7448,9 @@ a:hover {
   .section-title-wrapper i {
     margin: 0 5px;
     font-size: 22px;
+  }
+  .popular-games .section-title-wrapper::before {
+    width: 400px;
   }
 }
 
@@ -7759,6 +7762,46 @@ a:hover {
   font-weight: 300;
 }
 
+.single-card-2 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.single-card-2 img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.single-card-2 .overlay {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.7);
+  top: 0;
+  left: -700px;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  width: 90%;
+  height: 90%;
+  text-align: center;
+  padding: 80px 20px;
+  -webkit-transition-property: left;
+  transition-property: left;
+  -webkit-transition-duration: 0.3s, 0.2s;
+          transition-duration: 0.3s, 0.2s;
+}
+
+.single-card-2 .overlay p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #bebebe;
+}
+
+.single-card-2:hover .overlay {
+  left: 0;
+  cursor: pointer;
+}
+
 /**
     RESPONSIVE STYLES GOES HERE
     ===========================
@@ -7779,6 +7822,15 @@ a:hover {
     color: #ffffff;
     font-size: 14px;
     font-weight: 300;
+  }
+  .single-card-2 {
+    margin-bottom: 0;
+  }
+  .single-card-2 .overlay {
+    padding: 60px 20px;
+  }
+  .single-card-2 .overlay p {
+    font-size: 14px;
   }
 }
 

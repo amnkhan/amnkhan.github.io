@@ -6,6 +6,8 @@ a {
 }
 .section-padding {
     padding: 60px 0;
+    background-size: cover;
+    background-position: center;
 }
 
 .section-title-wrapper {
@@ -48,6 +50,9 @@ a {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+    .section-padding {
+        padding: 120px 0;
+    }
     // Section title wrapper
     .section-title-wrapper {
         padding: 15px 30px;

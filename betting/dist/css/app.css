@@ -8098,6 +8098,37 @@ a:hover {
   margin-bottom: 5px;
 }
 
+.bet-wrapper .filter-option {
+  margin-top: 30px;
+}
+
+.bet-wrapper .filter-option .input-group {
+  margin-bottom: 10px;
+}
+
+.bet-wrapper .filter-option .form-control {
+  background-color: transparent;
+  color: #e4ebf9;
+  border: 1px solid #3a5894;
+  border-radius: 4px 0px 0px 4px;
+}
+
+.bet-wrapper .filter-option .form-control:focus {
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+}
+
+.bet-wrapper .filter-option .input-group-text {
+  background: transparent;
+  border: 1px solid #3a5894;
+  border-left: 0;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.bet-wrapper .filter-option .input-group-text a {
+  color: #e4ebf9;
+}
+
 /**
     RESPONSIVE STYLES GOES HERE
     ===========================
@@ -8137,6 +8168,17 @@ a:hover {
     color: #9ca9c2;
     font-size: 14px;
     margin-bottom: 5px;
+  }
+  .bet-wrapper .inner-section-title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .bet-wrapper .filter-option {
+    margin-top: 0px;
   }
 }
 

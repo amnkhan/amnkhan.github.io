@@ -8181,6 +8181,21 @@ a:hover {
   margin-right: 10px;
 }
 
+.pagination-wrapper {
+  margin: 30px 0;
+}
+
+.pagination-wrapper i {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #3a5894;
+  border-radius: 5px;
+  color: #3a5894;
+  font-size: 24px;
+}
+
 /**
     RESPONSIVE STYLES GOES HERE
     ===========================

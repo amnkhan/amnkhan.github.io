@@ -62,6 +62,37 @@
     }
 }
 
+// Header user info
+.header-user-info {
+    margin-top: 20px;
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: inline-block;
+        color: $primary-text-color;
+        font-size: 16px;
+        margin-right: 10px;
+        padding: 5px 0;
+        i {
+            color: #7182a6;
+            margin-right: 5px;
+        }
+    }
+    li:last-child a {
+        margin-right: 0;
+    }
+    li.user-id a {
+        color: #7182a6;
+        font-size: 18px;
+    }
+}
+
 /**
     RESPONSIVE STYLES GOES HERE
     ===========================
@@ -89,6 +120,26 @@
         // CTA buttons
         .cta-buttons {
         margin-left: 5px;
+        }
+    }
+
+    // Header user info
+    .header-user-info {
+        margin-top: 0px;
+
+        li a {
+            font-size: 18px;
+            margin-right: 20px;
+            padding: 0;
+            i {
+                color: #7182a6;
+                margin-right: 5px;
+            }
+        }
+
+        li.user-id a {
+            color: #7182a6;
+            font-size: 20px;
         }
     }
 }

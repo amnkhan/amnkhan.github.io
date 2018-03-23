@@ -7508,6 +7508,34 @@ a:hover {
   }
 }
 
+.status-bar-section {
+  background-color: #d0d3d9;
+  padding: 20px;
+}
+
+.status-bar-section .status-bar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.status-bar-section .status-bar li {
+  float: left;
+}
+
+.status-bar-section .status-bar li a {
+  color: #091835;
+  padding: 5px 0;
+  display: inline-block;
+  margin-right: 25px;
+  padding: 5px 0;
+}
+
+.status-bar-section .status-bar li a span {
+  color: #cd0006;
+  margin-left: 10px;
+}
+
 .top-header {
   background-color: #040a16;
   padding: 20px;
@@ -7577,6 +7605,42 @@ a:hover {
   opacity: 0.8;
 }
 
+.header-user-info {
+  margin-top: 20px;
+}
+
+.header-user-info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-user-info li {
+  float: left;
+}
+
+.header-user-info li a {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 16px;
+  margin-right: 10px;
+  padding: 5px 0;
+}
+
+.header-user-info li a i {
+  color: #7182a6;
+  margin-right: 5px;
+}
+
+.header-user-info li:last-child a {
+  margin-right: 0;
+}
+
+.header-user-info li.user-id a {
+  color: #7182a6;
+  font-size: 18px;
+}
+
 /**
     RESPONSIVE STYLES GOES HERE
     ===========================
@@ -7596,6 +7660,22 @@ a:hover {
   }
   .top-header .cta-buttons {
     margin-left: 5px;
+  }
+  .header-user-info {
+    margin-top: 0px;
+  }
+  .header-user-info li a {
+    font-size: 18px;
+    margin-right: 20px;
+    padding: 0;
+  }
+  .header-user-info li a i {
+    color: #7182a6;
+    margin-right: 5px;
+  }
+  .header-user-info li.user-id a {
+    color: #7182a6;
+    font-size: 20px;
   }
 }
 

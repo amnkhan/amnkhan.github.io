@@ -2554,6 +2554,21 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   display: block;
 }
 
+.media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.media-body {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
 .input-group {
   position: relative;
   display: -webkit-box;
@@ -7529,6 +7544,7 @@ a:hover {
   display: inline-block;
   margin-right: 25px;
   padding: 5px 0;
+  text-transform: capitalize;
 }
 
 .status-bar-section .status-bar li a span {
@@ -7980,6 +7996,147 @@ a:hover {
     font-weight: 300;
     text-transform: uppercase;
     margin: 0;
+  }
+}
+
+.main-content-section {
+  background-color: #122548;
+}
+
+.inner-section-title {
+  margin-bottom: 30px;
+}
+
+.inner-section-title h2 {
+  font-size: 22px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.inner-section-title h2 i {
+  margin-right: 5px;
+}
+
+.event-widget-wrapper {
+  margin-bottom: 40px;
+}
+
+.event-widget-wrapper .event-date {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #497dd0;
+}
+
+.event-widget-wrapper .event-date h3 {
+  color: #497dd0;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.event-widgets {
+  margin-top: 20px;
+}
+
+.single-event-widget {
+  margin-bottom: 30px;
+  padding: 20px 25px;
+  background-color: #203560;
+  border-radius: 5px;
+}
+
+.single-event-widget p {
+  margin-bottom: 5px;
+  color: #93afe5;
+  font-weight: 600;
+}
+
+.single-event-widget p span {
+  color: #ffffff;
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.single-event-widget .event-status {
+  margin-top: 20px;
+}
+
+.single-sidebar {
+  margin-bottom: 40px;
+}
+
+.single-sidebar .single-widget-card {
+  background-color: #203560;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.single-sidebar .single-widget-card .media-left {
+  margin-right: 5px;
+}
+
+.single-sidebar .single-widget-card .media-left img {
+  width: 100px;
+  height: 100%;
+}
+
+.single-sidebar .single-widget-card .media-body {
+  padding: 10px;
+}
+
+.single-sidebar .single-widget-card .media-body .date, .single-sidebar .single-widget-card .media-body .time {
+  margin-right: 5px;
+  color: #697ea7;
+  margin-bottom: 0;
+}
+
+.single-sidebar .single-widget-card .media-body .date i, .single-sidebar .single-widget-card .media-body .time i {
+  margin-right: 5px;
+}
+
+.single-sidebar .single-widget-card p {
+  color: #9ca9c2;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+/**
+    RESPONSIVE STYLES GOES HERE
+    ===========================
+**/
+@media (min-width: 992px) {
+  .inner-section-title h2 {
+    font-size: 24px;
+  }
+  .single-event-widget {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .single-event-widget .event-status {
+    margin-top: 0px;
+  }
+  .single-sidebar {
+    margin-bottom: 60px;
+  }
+  .single-sidebar .single-widget-card .media-left {
+    margin-right: 5px;
+  }
+  .single-sidebar .single-widget-card .media-body {
+    padding: 10px 15px;
+  }
+  .single-sidebar .single-widget-card .media-body .date {
+    color: #697ea7;
+    margin-bottom: 0;
+  }
+  .single-sidebar .single-widget-card .media-body .date i {
+    margin-right: 5px;
+  }
+  .single-sidebar .single-widget-card p {
+    color: #9ca9c2;
+    font-size: 14px;
+    margin-bottom: 5px;
   }
 }
 

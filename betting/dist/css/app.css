@@ -8129,6 +8129,58 @@ a:hover {
   color: #e4ebf9;
 }
 
+.single-bet-widget {
+  background-color: #203560;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.single-bet-widget .media {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.single-bet-widget .media .media-left {
+  width: 100%;
+}
+
+.single-bet-widget .media .media-left img {
+  width: 100%;
+  display: block;
+  height: 230px;
+}
+
+.single-bet-widget .media .media-body {
+  padding: 15px;
+}
+
+.single-bet-widget .media .media-body h2 {
+  color: #ffffff;
+  font-size: 22px;
+}
+
+.single-bet-widget .media .media-body .date a {
+  color: #697ea7;
+  font-size: 14px;
+}
+
+.single-bet-widget .media .media-body .team-name {
+  color: #697ea7;
+  margin: 10px 0;
+  display: block;
+}
+
+.single-bet-widget .media .media-body p {
+  color: #9ca9c2;
+  font-size: 14px;
+}
+
+.single-bet-widget .media .media-body .btn-common {
+  margin-right: 10px;
+}
+
 /**
     RESPONSIVE STYLES GOES HERE
     ===========================
@@ -8179,6 +8231,21 @@ a:hover {
   }
   .bet-wrapper .filter-option {
     margin-top: 0px;
+  }
+  .single-bet-widget .media {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .single-bet-widget .media .media-left {
+    width: auto;
+    margin-right: 10px;
+  }
+  .single-bet-widget .media .media-left img {
+    width: 250px;
+    height: 250px;
+    display: block;
   }
 }
 

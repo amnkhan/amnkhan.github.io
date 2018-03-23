@@ -122,6 +122,51 @@
     }
 }
 
+// bet widget
+.single-bet-widget {
+    background-color: $section-card-bg;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    .media {
+        flex-direction: column;
+        .media-left {
+            width: 100%;
+            img {
+                width: 100%;
+                display: block;
+                height: 230px;
+            }
+        }
+
+
+        .media-body {
+            padding: 15px;
+            h2 {
+                color: #ffffff;
+                font-size: 22px;
+            }
+            .date {
+                a {
+                    color: #697ea7;
+                    font-size: 14px;
+                }
+            }
+            .team-name {
+                color: #697ea7;
+                margin: 10px 0;
+                display: block;
+            }
+            p {
+                color: #9ca9c2;
+                font-size: 14px;
+            }
+            .btn-common {
+                margin-right: 10px;
+            }
+
+        }
+    }
+}
 
 /**
     RESPONSIVE STYLES GOES HERE
@@ -186,4 +231,24 @@
             margin-top: 0px;
         }
     }
+
+    // bet widget
+    .single-bet-widget {
+
+        .media {
+            flex-direction: row;
+            .media-left {
+                width:auto;
+                margin-right: 10px;
+                img {
+                    width: 250px;
+                    height: 250px;
+                    display: block;
+                }
+            }
+
+
+        }
+    }
+
 }
